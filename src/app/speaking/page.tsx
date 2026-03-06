@@ -39,22 +39,7 @@ const speakingFormFields = [
   { name: "name", label: "Your Name", type: "text" as const, placeholder: "Full name", required: true },
   { name: "email", label: "Email", type: "email" as const, placeholder: "your@email.com", required: true },
   { name: "organization", label: "Organization or Event", type: "text" as const, placeholder: "Company, conference, or event name", required: true },
-  { name: "date", label: "Event Date (Approximate)", type: "text" as const, placeholder: "Month and year" },
-  {
-    name: "type",
-    label: "Event Type",
-    type: "select" as const,
-    options: [
-      "Conference / Summit",
-      "Corporate Offsite / Retreat",
-      "Personal Development Event",
-      "Podcast or Media Appearance",
-      "Other",
-    ],
-    required: true,
-  },
-  { name: "audience", label: "Expected Audience Size", type: "text" as const, placeholder: "Approximate number" },
-  { name: "message", label: "Tell me about your event", type: "textarea" as const, placeholder: "What is the theme, who attends, what outcome are you hoping the audience leaves with?", required: true },
+  { name: "message", label: "Tell me about your event", type: "textarea" as const, placeholder: "Share your event date, expected audience, and what you're hoping people leave with.", required: true },
 ];
 
 export default function Speaking() {
@@ -323,8 +308,8 @@ export default function Speaking() {
 
           <PlaceholderForm
             fields={speakingFormFields}
-            submitLabel="Submit Inquiry"
-            successMessage="Inquiry received. Justin reads every one personally and will be in touch if there is a fit."
+            submitLabel="Send Inquiry"
+            successMessage="Inquiry received. Justin reads every one personally and will follow up directly."
           />
         </div>
       </section>
