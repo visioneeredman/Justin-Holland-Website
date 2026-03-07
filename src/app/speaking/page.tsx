@@ -5,7 +5,7 @@ import PlaceholderForm from "@/components/PlaceholderForm";
 export const metadata: Metadata = {
   title: "How to Book a Keynote Speaker: A Step-by-Step Guide",
   description:
-    "Learn how to book a keynote speaker for your event with this complete guide. Find tips on budgeting, outreach, contracts, and choosing the right speaker.",
+    "Learn how to book a keynote speaker with our simple guide. Find, vet, and hire the right speaker for your event on time and on budget.",
 };
 
 const keynotes = [
@@ -76,9 +76,7 @@ export default function Speaking() {
               marginBottom: "1.5rem",
             }}
           >
-            Your audience will leave with something
-            <br />
-            <em>they cannot un-see.</em>
+            How to Book a Keynote Speaker
           </h1>
           <p
             style={{
@@ -88,15 +86,366 @@ export default function Speaking() {
               maxWidth: "36rem",
             }}
           >
-            Justin Holland delivers keynotes that don&apos;t motivate people — they shift them.
-            There is a difference. A motivated person goes home inspired. A shifted person goes
-            home different.
+            Choosing the right keynote speaker can define the success of your entire event. This guide walks you through every step of the speaker booking process so you can find, vet, and hire the right person on time and on budget.
           </p>
         </div>
       </section>
 
-      {/* ── WHAT HE BRINGS ── */}
+      {/* ── HOW TO BOOK GUIDE ── */}
       <section style={{ backgroundColor: "#F5F0E8", padding: "6rem 0" }}>
+        <div className="max-w-4xl mx-auto px-6">
+
+          {/* Step 1 */}
+          <div style={{ marginBottom: "4rem" }}>
+            <span className="line-accent" />
+            <h2
+              style={{
+                fontFamily: "var(--font-dm-serif), Georgia, serif",
+                fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
+                lineHeight: 1.2,
+                letterSpacing: "-0.02em",
+                fontWeight: 400,
+                marginBottom: "1.25rem",
+              }}
+            >
+              Define Your Event Goals and Audience
+            </h2>
+            <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "1rem" }}>
+              Before you search for keynote speaker candidates, get clear on what you need the talk to accomplish. Ask yourself what outcome you want the audience to leave with. Is this event meant to inspire action, shift culture, teach a skill, or open a new conversation?
+            </p>
+            <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "1rem" }}>
+              Know your audience demographics. A room of senior executives has different expectations than a gathering of early-career professionals or a personal development community. The more specific you are about audience expectations, the easier it becomes to evaluate whether a speaker is the right fit.
+            </p>
+            <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035" }}>
+              Write down your event purpose in one sentence. That sentence becomes your filter for every speaker you consider.
+            </p>
+          </div>
+
+          {/* Step 2 */}
+          <div style={{ marginBottom: "4rem" }}>
+            <span className="line-accent" />
+            <h2
+              style={{
+                fontFamily: "var(--font-dm-serif), Georgia, serif",
+                fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
+                lineHeight: 1.2,
+                letterSpacing: "-0.02em",
+                fontWeight: 400,
+                marginBottom: "1.25rem",
+              }}
+            >
+              Set Your Speaker Budget
+            </h2>
+            <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "1rem" }}>
+              Keynote speaker fees vary widely depending on the speaker's profile, topic, and experience. Emerging speakers may charge between $2,500 and $10,000. Mid-tier speakers with strong track records often range from $10,000 to $40,000. Celebrity and top-tier speakers can command $50,000 or more per engagement.
+            </p>
+            <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "1rem" }}>
+              Budget for more than just the speaking fee. Travel, hotel, ground transportation, and audio-visual requirements are common additional costs. Some speakers charge a flat all-in rate; others bill expenses separately. Clarify this upfront.
+            </p>
+            <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035" }}>
+              If a speaker is slightly above your budget, it is worth asking. Many speakers will negotiate based on the cause, audience size, or the opportunity to reach a new market.
+            </p>
+          </div>
+
+          {/* Step 3 */}
+          <div style={{ marginBottom: "4rem" }}>
+            <span className="line-accent" />
+            <h2
+              style={{
+                fontFamily: "var(--font-dm-serif), Georgia, serif",
+                fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
+                lineHeight: 1.2,
+                letterSpacing: "-0.02em",
+                fontWeight: 400,
+                marginBottom: "1.25rem",
+              }}
+            >
+              Search for Keynote Speaker Candidates
+            </h2>
+            <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "1rem" }}>
+              Finding a keynote speaker starts with knowing where to look. Here are the most reliable sources for discovering candidates:
+            </p>
+            <div className="speaking-bullets">
+              {[
+                "Speaker bureaus such as CAA Speakers, Washington Speakers Bureau, and National Speakers Association maintain curated rosters and can match you to speakers within your budget and topic area.",
+                "LinkedIn is useful for searching by topic, industry, and audience type. Many speakers list their speaking services directly on their profiles.",
+                "Referrals from colleagues and event planners who have booked speakers recently are often the most reliable source of honest, firsthand feedback.",
+                "Conference directories and past event programs show you who has already spoken to audiences similar to yours.",
+                "YouTube and podcast appearances let you hear the speaker in their own voice before any formal contact.",
+              ].map((point, i) => (
+                <div
+                  key={i}
+                  style={{
+                    display: "flex",
+                    gap: "1.25rem",
+                    alignItems: "flex-start",
+                    marginBottom: "1.5rem",
+                  }}
+                >
+                  <span
+                    style={{
+                      display: "block",
+                      width: "1.5rem",
+                      height: "1px",
+                      background: "#C4813A",
+                      flexShrink: 0,
+                      marginTop: "0.75rem",
+                    }}
+                    aria-hidden="true"
+                  />
+                  <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", margin: 0 }}>
+                    {point}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Step 4 */}
+          <div style={{ marginBottom: "4rem" }}>
+            <span className="line-accent" />
+            <h2
+              style={{
+                fontFamily: "var(--font-dm-serif), Georgia, serif",
+                fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
+                lineHeight: 1.2,
+                letterSpacing: "-0.02em",
+                fontWeight: 400,
+                marginBottom: "1.25rem",
+              }}
+            >
+              Evaluate and Shortlist Speakers
+            </h2>
+            <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "1rem" }}>
+              Once you have a list of candidates, narrow it down using these criteria:
+            </p>
+            <div className="speaking-bullets">
+              {[
+                "Watch demo videos. A good demo reel is edited to highlight the speaker's best moments, but also look for full-length talk recordings to see how they hold a room over time.",
+                "Read testimonials and case studies. Look for feedback from event organizers at similar events, not just audience members.",
+                "Assess topic relevance. A speaker who is strong in general might not be the right fit if their content does not connect directly to your event theme.",
+                "Consider audience fit. The best speaker for a tech startup audience may not be the best speaker for a healthcare leadership retreat.",
+              ].map((point, i) => (
+                <div
+                  key={i}
+                  style={{
+                    display: "flex",
+                    gap: "1.25rem",
+                    alignItems: "flex-start",
+                    marginBottom: "1.5rem",
+                  }}
+                >
+                  <span
+                    style={{
+                      display: "block",
+                      width: "1.5rem",
+                      height: "1px",
+                      background: "#C4813A",
+                      flexShrink: 0,
+                      marginTop: "0.75rem",
+                    }}
+                    aria-hidden="true"
+                  />
+                  <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", margin: 0 }}>
+                    {point}
+                  </p>
+                </div>
+              ))}
+            </div>
+            <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035" }}>
+              Aim to shortlist two or three speakers before making first contact. This gives you options if your first choice is unavailable or over budget.
+            </p>
+          </div>
+
+          {/* Step 5 */}
+          <div style={{ marginBottom: "4rem" }}>
+            <span className="line-accent" />
+            <h2
+              style={{
+                fontFamily: "var(--font-dm-serif), Georgia, serif",
+                fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
+                lineHeight: 1.2,
+                letterSpacing: "-0.02em",
+                fontWeight: 400,
+                marginBottom: "1.25rem",
+              }}
+            >
+              Reach Out and Request Availability
+            </h2>
+            <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "1rem" }}>
+              Contact the speaker or their representative with a concise, professional inquiry. Include:
+            </p>
+            <div className="speaking-bullets">
+              {[
+                "Event name, date, and location",
+                "Expected audience size and audience description",
+                "Talk format and length (keynote, panel, workshop)",
+                "Your budget range",
+                "A brief description of the event and why this speaker is a good fit",
+              ].map((point, i) => (
+                <div
+                  key={i}
+                  style={{
+                    display: "flex",
+                    gap: "1.25rem",
+                    alignItems: "flex-start",
+                    marginBottom: "1.5rem",
+                  }}
+                >
+                  <span
+                    style={{
+                      display: "block",
+                      width: "1.5rem",
+                      height: "1px",
+                      background: "#C4813A",
+                      flexShrink: 0,
+                      marginTop: "0.75rem",
+                    }}
+                    aria-hidden="true"
+                  />
+                  <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", margin: 0 }}>
+                    {point}
+                  </p>
+                </div>
+              ))}
+            </div>
+            <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035" }}>
+              Speakers receive many inquiries. A clear, specific message that demonstrates you have done your research will get a faster and more favorable response.
+            </p>
+          </div>
+
+          {/* Step 6 */}
+          <div style={{ marginBottom: "4rem" }}>
+            <span className="line-accent" />
+            <h2
+              style={{
+                fontFamily: "var(--font-dm-serif), Georgia, serif",
+                fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
+                lineHeight: 1.2,
+                letterSpacing: "-0.02em",
+                fontWeight: 400,
+                marginBottom: "1.25rem",
+              }}
+            >
+              Review the Speaker Contract
+            </h2>
+            <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "1rem" }}>
+              Every professional speaker engagement should be governed by a written contract. Review these key clauses carefully before signing:
+            </p>
+            <div className="speaking-bullets">
+              {[
+                "Cancellation policy: Understand what happens if either party cancels, and what refund or kill fee applies.",
+                "Exclusivity: Some speakers will not appear at competing events within a certain time window. Confirm this does not conflict with your event calendar.",
+                "Deliverables: The contract should specify the length of the talk, whether the speaker will attend a pre-event dinner or Q&A, and any other commitments.",
+                "Payment terms: Know when the deposit is due, when the balance is due, and what payment methods are accepted.",
+                "Recording rights: If you plan to record or livestream the keynote, confirm this is permitted and under what conditions.",
+              ].map((point, i) => (
+                <div
+                  key={i}
+                  style={{
+                    display: "flex",
+                    gap: "1.25rem",
+                    alignItems: "flex-start",
+                    marginBottom: "1.5rem",
+                  }}
+                >
+                  <span
+                    style={{
+                      display: "block",
+                      width: "1.5rem",
+                      height: "1px",
+                      background: "#C4813A",
+                      flexShrink: 0,
+                      marginTop: "0.75rem",
+                    }}
+                    aria-hidden="true"
+                  />
+                  <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", margin: 0 }}>
+                    {point}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Step 7 */}
+          <div style={{ marginBottom: "4rem" }}>
+            <span className="line-accent" />
+            <h2
+              style={{
+                fontFamily: "var(--font-dm-serif), Georgia, serif",
+                fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
+                lineHeight: 1.2,
+                letterSpacing: "-0.02em",
+                fontWeight: 400,
+                marginBottom: "1.25rem",
+              }}
+            >
+              Confirm Logistics and Prepare for the Event
+            </h2>
+            <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "1rem" }}>
+              Once the contract is signed, shift your focus to logistics. A well-prepared speaker delivers a better keynote. Help them do their best work by providing the following:
+            </p>
+            <div className="speaking-bullets">
+              {[
+                "A detailed run-of-show document with precise timing for their slot",
+                "Audio-visual specifications including microphone type, clicker availability, screen dimensions, and internet requirements",
+                "A pre-event call at least two to four weeks before the event to align on content, audience, and expectations",
+                "Day-of coordination details such as arrival time, green room location, point of contact, and parking",
+              ].map((point, i) => (
+                <div
+                  key={i}
+                  style={{
+                    display: "flex",
+                    gap: "1.25rem",
+                    alignItems: "flex-start",
+                    marginBottom: "1.5rem",
+                  }}
+                >
+                  <span
+                    style={{
+                      display: "block",
+                      width: "1.5rem",
+                      height: "1px",
+                      background: "#C4813A",
+                      flexShrink: 0,
+                      marginTop: "0.75rem",
+                    }}
+                    aria-hidden="true"
+                  />
+                  <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", margin: 0 }}>
+                    {point}
+                  </p>
+                </div>
+              ))}
+            </div>
+            <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035" }}>
+              Speakers who feel informed and supported consistently deliver stronger performances. The logistics work you do in advance pays off on stage.
+            </p>
+          </div>
+
+          {/* Conclusion / CTA */}
+          <div
+            style={{
+              background: "#0E0E0E",
+              color: "#F5F0E8",
+              padding: "2.5rem",
+              borderRadius: "2px",
+            }}
+          >
+            <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, marginBottom: "1rem" }}>
+              Booking a keynote speaker is a process that rewards preparation. The earlier you start, the more options you have and the less pressure you face on budget and availability. Work through these steps in order, stay organized, and your event will be in good hands.
+            </p>
+            <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#c8bfb0" }}>
+              Ready to book your keynote speaker? Start by defining your event goals and setting a clear budget before reaching out to candidates.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+      {/* ── WHAT HE BRINGS ── */}
+      <section style={{ backgroundColor: "#ffffff", padding: "6rem 0" }}>
         <div className="max-w-4xl mx-auto px-6">
           <span className="line-accent" />
           <h2
@@ -148,7 +497,7 @@ export default function Speaking() {
       </section>
 
       {/* ── KEYNOTE THEMES ── */}
-      <section style={{ backgroundColor: "#ffffff", padding: "6rem 0" }}>
+      <section style={{ backgroundColor: "#F5F0E8", padding: "6rem 0" }}>
         <div className="max-w-5xl mx-auto px-6">
           <div style={{ textAlign: "center", marginBottom: "4rem" }}>
             <span
@@ -280,267 +629,6 @@ export default function Speaking() {
                 </p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── HOW TO BOOK A KEYNOTE SPEAKER GUIDE ── */}
-      <section style={{ backgroundColor: "#F5F0E8", padding: "6rem 0" }}>
-        <div className="max-w-4xl mx-auto px-6">
-          <span
-            style={{
-              display: "block",
-              fontSize: "0.75rem",
-              letterSpacing: "0.12em",
-              textTransform: "uppercase",
-              color: "#C4813A",
-              marginBottom: "1.5rem",
-            }}
-          >
-            Booking Guide
-          </span>
-
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              fontWeight: 400,
-              marginBottom: "1rem",
-            }}
-          >
-            What Does It Mean to Book a Keynote Speaker?
-          </h2>
-          <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "3rem" }}>
-            Booking a keynote speaker means finding, contacting, and securing a professional speaker for your event. This process involves research, negotiation, and signing a formal agreement to confirm their appearance.
-          </p>
-
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.5rem, 2.5vw, 2rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              fontWeight: 400,
-              marginBottom: "1rem",
-            }}
-          >
-            Step 1: Define Your Event Goals
-          </h2>
-          <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "3rem" }}>
-            Before reaching out to any speaker, clarify what you want your audience to take away from the event. Your goals will shape the type of speaker you need, the tone of the presentation, and the topics you want covered.
-          </p>
-
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.5rem, 2.5vw, 2rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              fontWeight: 400,
-              marginBottom: "1rem",
-            }}
-          >
-            Step 2: Set a Realistic Budget
-          </h2>
-          <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "3rem" }}>
-            Speaker fees vary widely depending on experience, fame, and demand. Entry-level speakers may charge a few hundred dollars, while celebrity speakers can cost tens of thousands. Factor in travel, accommodation, and any technical requirements when setting your budget.
-          </p>
-
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.5rem, 2.5vw, 2rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              fontWeight: 400,
-              marginBottom: "1rem",
-            }}
-          >
-            Step 3: Research and Shortlist Speakers
-          </h2>
-          <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "3rem" }}>
-            Use speaker bureaus, LinkedIn, industry associations, and referrals to find candidates. Watch demo videos, read reviews, and check past speaking engagements to evaluate whether a speaker is a good fit for your audience.
-          </p>
-
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.5rem, 2.5vw, 2rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              fontWeight: 400,
-              marginBottom: "1rem",
-            }}
-          >
-            Step 4: Reach Out and Request Availability
-          </h2>
-          <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "3rem" }}>
-            Contact speakers or their representatives directly. Provide details about your event including the date, location, audience size, and topic. Ask about their availability and request a quote or speaker kit for review.
-          </p>
-
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.5rem, 2.5vw, 2rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              fontWeight: 400,
-              marginBottom: "1rem",
-            }}
-          >
-            Step 5: Negotiate Terms
-          </h2>
-          <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "3rem" }}>
-            Once you find a speaker who fits your needs and budget, discuss the terms of their appearance. This includes the fee, length of the presentation, travel arrangements, audio and visual requirements, and any exclusivity clauses.
-          </p>
-
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.5rem, 2.5vw, 2rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              fontWeight: 400,
-              marginBottom: "1rem",
-            }}
-          >
-            Step 6: Review and Sign a Contract
-          </h2>
-          <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "3rem" }}>
-            Always formalize the agreement with a written contract. The contract should outline payment terms, cancellation policies, deliverables, and any special requests. Have a legal professional review it if needed before signing.
-          </p>
-
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.5rem, 2.5vw, 2rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              fontWeight: 400,
-              marginBottom: "1rem",
-            }}
-          >
-            Step 7: Confirm Logistics Before the Event
-          </h2>
-          <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "3rem" }}>
-            In the weeks leading up to your event, stay in contact with the speaker to confirm travel plans, presentation slides, technical needs, and the event schedule. A pre-event call can help align expectations and reduce last-minute surprises.
-          </p>
-
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.5rem, 2.5vw, 2rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              fontWeight: 400,
-              marginBottom: "1rem",
-            }}
-          >
-            Tips for Working with a Speaker Bureau
-          </h2>
-          <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "3rem" }}>
-            Speaker bureaus act as agents who represent multiple speakers. They can help you find the right fit quickly and handle negotiations on your behalf. Bureaus typically earn a commission from the speaker fee, so their services are often free to event planners.
-          </p>
-
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.5rem, 2.5vw, 2rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              fontWeight: 400,
-              marginBottom: "1rem",
-            }}
-          >
-            Common Mistakes to Avoid When Booking a Keynote Speaker
-          </h2>
-          <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "3rem" }}>
-            Avoid booking a speaker without watching them present live or on video. Do not skip the contract stage, even for smaller events. Failing to communicate event details clearly can lead to a presentation that misses the mark for your audience.
-          </p>
-
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.5rem, 2.5vw, 2rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              fontWeight: 400,
-              marginBottom: "1rem",
-            }}
-          >
-            How Far in Advance Should You Book a Keynote Speaker?
-          </h2>
-          <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", marginBottom: "3rem" }}>
-            For high-profile speakers, booking six to twelve months in advance is recommended. Less well-known speakers may be available with shorter notice, but earlier is always better to avoid scheduling conflicts.
-          </p>
-
-          {/* ── FAQ ── */}
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              fontWeight: 400,
-              marginBottom: "2rem",
-            }}
-          >
-            Frequently Asked Questions
-          </h2>
-
-          <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
-            <div>
-              <h3
-                style={{
-                  fontFamily: "var(--font-dm-serif), Georgia, serif",
-                  fontSize: "1.125rem",
-                  fontWeight: 400,
-                  marginBottom: "0.5rem",
-                  color: "#1a1a1a",
-                }}
-              >
-                How much does it cost to book a keynote speaker?
-              </h3>
-              <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", margin: 0 }}>
-                Fees range from a few hundred to over one hundred thousand dollars depending on the speaker.
-              </p>
-            </div>
-
-            <div>
-              <h3
-                style={{
-                  fontFamily: "var(--font-dm-serif), Georgia, serif",
-                  fontSize: "1.125rem",
-                  fontWeight: 400,
-                  marginBottom: "0.5rem",
-                  color: "#1a1a1a",
-                }}
-              >
-                Can I book a keynote speaker directly without a bureau?
-              </h3>
-              <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", margin: 0 }}>
-                Yes, many speakers accept direct bookings through their personal websites or management teams.
-              </p>
-            </div>
-
-            <div>
-              <h3
-                style={{
-                  fontFamily: "var(--font-dm-serif), Georgia, serif",
-                  fontSize: "1.125rem",
-                  fontWeight: 400,
-                  marginBottom: "0.5rem",
-                  color: "#1a1a1a",
-                }}
-              >
-                What should a keynote speaker contract include?
-              </h3>
-              <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", margin: 0 }}>
-                It should cover the fee, event date, location, presentation length, cancellation terms, and any technical or travel requirements.
-              </p>
-            </div>
           </div>
         </div>
       </section>
