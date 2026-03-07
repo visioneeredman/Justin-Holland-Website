@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Consciousness Coach: Expand Awareness & Transform Your Life",
+  title: "Justin Holland — Speaker & Coach | Blind Spots. Consciousness. Seeing Clearly.",
   description:
-    "Work with a consciousness coach to deepen self-awareness, break limiting patterns, and unlock lasting personal growth. Book a free discovery call today.",
+    "Justin Holland works with people who have done the work and are still hitting the same ceiling. The pattern is not the problem. The blind spot underneath it is.",
 };
 
 export default function Home() {
@@ -53,7 +53,7 @@ export default function Home() {
                   marginBottom: "1.5rem",
                 }}
               >
-                Consciousness Coach &amp; Speaker
+                Speaker &amp; Coach
               </span>
 
               <h1
@@ -66,7 +66,9 @@ export default function Home() {
                   fontWeight: 400,
                 }}
               >
-                Consciousness Coach: Expand Your Awareness and Transform Your Life
+                What you cannot see
+                <br />
+                is running everything.
               </h1>
 
               <p
@@ -78,8 +80,9 @@ export default function Home() {
                   marginBottom: "2.5rem",
                 }}
               >
-                Justin Holland helps people recognize the blind spots that have been quietly
-                creating the life they don&apos;t want. Once you see it, you can&apos;t unsee it.
+                Justin Holland works with people who have done the work and are still hitting the
+                same ceiling. The pattern is not the problem. The blind spot underneath it is.
+                Once you see it, you can&apos;t unsee it.
               </p>
 
               <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
@@ -121,119 +124,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── WHAT IS A CONSCIOUSNESS COACH ── */}
-      <section style={{ backgroundColor: "#F5F0E8", padding: "6rem 0" }}>
-        <div className="max-w-3xl mx-auto px-6">
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.75rem, 3vw, 2.5rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              marginBottom: "1.25rem",
-              fontWeight: 400,
-              color: "#0E0E0E",
-            }}
-          >
-            What Is a Consciousness Coach?
-          </h2>
-          <p
-            style={{
-              fontSize: "1.0625rem",
-              lineHeight: 1.7,
-              color: "#4a4035",
-              marginBottom: "1rem",
-            }}
-          >
-            A consciousness coach is a guide who helps you examine and expand the quality of your
-            awareness. Rather than focusing solely on goals, habits, or mindset techniques, a
-            consciousness coach works with you at a deeper level: the lens through which you
-            perceive yourself and the world.
-          </p>
-          <p
-            style={{
-              fontSize: "1.0625rem",
-              lineHeight: 1.7,
-              color: "#4a4035",
-              marginBottom: "1rem",
-            }}
-          >
-            The core premise is straightforward. Most persistent patterns in life do not stem from
-            a lack of effort or knowledge. They stem from blind spots in awareness. A consciousness
-            coach helps you locate those blind spots and see them clearly, often for the first time.
-          </p>
-          <p
-            style={{
-              fontSize: "1.0625rem",
-              lineHeight: 1.7,
-              color: "#4a4035",
-            }}
-          >
-            When a blind spot is genuinely seen, its hold on your behavior shifts. That is the
-            mechanism at the heart of consciousness coaching. You can also{" "}
-            <Link href="/blog" style={{ color: "#C4813A", textDecoration: "underline" }}>
-              explore my blog
-            </Link>{" "}
-            for articles that go deeper into how awareness shapes results.
-          </p>
-        </div>
-      </section>
-
-      {/* ── HOW CONSCIOUSNESS COACHING DIFFERS ── */}
-      <section style={{ backgroundColor: "#ffffff", padding: "6rem 0" }}>
-        <div className="max-w-3xl mx-auto px-6">
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.75rem, 3vw, 2.5rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              marginBottom: "1.25rem",
-              fontWeight: 400,
-              color: "#0E0E0E",
-            }}
-          >
-            How Consciousness Coaching Differs from Therapy and Life Coaching
-          </h2>
-          <p
-            style={{
-              fontSize: "1.0625rem",
-              lineHeight: 1.7,
-              color: "#4a4035",
-              marginBottom: "1rem",
-            }}
-          >
-            Therapy typically focuses on healing past wounds, diagnosing conditions, and processing
-            emotional pain under a licensed clinical framework. Consciousness coaching is not
-            therapy and does not treat mental health conditions. It works best alongside a healthy
-            psychological foundation or in tandem with therapeutic support.
-          </p>
-          <p
-            style={{
-              fontSize: "1.0625rem",
-              lineHeight: 1.7,
-              color: "#4a4035",
-              marginBottom: "1rem",
-            }}
-          >
-            Traditional life coaching tends to be goal-oriented. A life coach might help you set
-            targets, build accountability structures, and develop action plans. That approach has
-            real value. Consciousness coaching goes one level deeper by examining why you keep
-            arriving at the same outcomes despite repeated action.
-          </p>
-          <p
-            style={{
-              fontSize: "1.0625rem",
-              lineHeight: 1.7,
-              color: "#4a4035",
-            }}
-          >
-            The difference is the entry point. Life coaching often starts with what you want to
-            achieve. Consciousness coaching starts with what you cannot yet see about how you
-            are operating.
-          </p>
-        </div>
-      </section>
 
       {/* ── CORE INSIGHT ── */}
       <section style={{ backgroundColor: "#F5F0E8", padding: "6rem 0" }}>
@@ -338,66 +228,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── WHO IS CONSCIOUSNESS COACHING FOR ── */}
-      <section style={{ backgroundColor: "#ffffff", padding: "6rem 0" }}>
-        <div className="max-w-3xl mx-auto px-6">
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.75rem, 3vw, 2.5rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              marginBottom: "1.25rem",
-              fontWeight: 400,
-              color: "#0E0E0E",
-            }}
-          >
-            Who Is Consciousness Coaching For?
-          </h2>
-          <p
-            style={{
-              fontSize: "1.0625rem",
-              lineHeight: 1.7,
-              color: "#4a4035",
-              marginBottom: "1rem",
-            }}
-          >
-            Consciousness coaching is not for everyone and it is important to be honest about that.
-            It tends to be most effective for people who have already done significant personal
-            development work and are still hitting the same ceiling.
-          </p>
-          <p
-            style={{
-              fontSize: "1.0625rem",
-              lineHeight: 1.7,
-              color: "#4a4035",
-              marginBottom: "1rem",
-            }}
-          >
-            You may be a good fit if you recognize yourself in any of the following:
-          </p>
-          <ul
-            style={{
-              fontSize: "1.0625rem",
-              lineHeight: 1.9,
-              color: "#4a4035",
-              paddingLeft: "1.25rem",
-              marginBottom: "1rem",
-            }}
-          >
-            <li>You have read the books, attended the programs, and done the therapy, yet the same patterns keep showing up</li>
-            <li>You feel a persistent gap between the life you know is possible and the one you are living</li>
-            <li>You are a high performer who senses that something unseen is limiting your next level</li>
-            <li>You are willing to look honestly at how you may be contributing to the problems you want solved</li>
-            <li>You are drawn to root-cause work rather than symptom management</li>
-          </ul>
-          <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035" }}>
-            If you are in acute crisis or dealing with clinical mental health conditions, please seek
-            qualified therapeutic or medical support first. Consciousness coaching works best as a
-            complement to a stable foundation, not as a replacement for clinical care.
-          </p>
-        </div>
-      </section>
 
       {/* ── STORY HOOK ── */}
       <section style={{ backgroundColor: "#F5F0E8", padding: "6rem 0" }}>
@@ -424,7 +254,7 @@ export default function Home() {
               fontWeight: 400,
             }}
           >
-            He lost his sight. And for the first time, he saw clearly.
+            He went blind. A decade later, he finally saw.
           </h2>
           <p
             style={{
@@ -434,9 +264,10 @@ export default function Home() {
               marginBottom: "1.25rem",
             }}
           >
-            A beer bottle shattered across Justin Holland&apos;s face at twenty. The doctors told
-            him he might never see again. In the stillness that followed, stripped of every
-            distraction, he asked two questions he had never had the quiet to ask before.
+            A beer bottle during a fight. Weeks later, legally blind. A genetic condition the
+            trauma had likely triggered. Justin moved back home, learned to edit videos without
+            sight, competed in bodybuilding, and kept running — through sales careers, through
+            money made and spent, through everything that numbing offers.
           </p>
           <p
             style={{
@@ -446,8 +277,10 @@ export default function Home() {
               marginBottom: "2.5rem",
             }}
           >
-            What he found in that moment became the framework he has spent years testing, living,
-            and refining. In sport. In relationships. In the work he does with others.
+            Then in 2023, after a session inside a men&apos;s brotherhood, something happened that
+            years of effort had not produced. He asked two questions most people never stop long
+            enough to ask. The answer arrived — not from outside, but from the inside of the
+            inside. That framework is what he brings to the stage and to one-on-one work.
           </p>
           <Link href="/about" className="btn-secondary-dark">
             Read the Full Story
@@ -469,7 +302,7 @@ export default function Home() {
               color: "#F5F0E8",
             }}
           >
-            What to Expect in a Consciousness Coaching Session
+            What the work actually is
           </h2>
           <p
             style={{
@@ -678,72 +511,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── HOW TO CHOOSE ── */}
-      <section style={{ backgroundColor: "#ffffff", padding: "6rem 0" }}>
-        <div className="max-w-3xl mx-auto px-6">
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.75rem, 3vw, 2.5rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              marginBottom: "1.25rem",
-              fontWeight: 400,
-              color: "#0E0E0E",
-            }}
-          >
-            How to Choose the Right Consciousness Coach
-          </h2>
-          <p
-            style={{
-              fontSize: "1.0625rem",
-              lineHeight: 1.7,
-              color: "#4a4035",
-              marginBottom: "1rem",
-            }}
-          >
-            The field of consciousness coaching is unregulated, which means the quality and
-            approach vary significantly from one practitioner to the next. When evaluating a
-            consciousness coach, consider the following criteria.
-          </p>
-          <p
-            style={{
-              fontSize: "1.0625rem",
-              lineHeight: 1.7,
-              color: "#4a4035",
-              marginBottom: "1rem",
-            }}
-          >
-            First, look for evidence that the coach has done their own deep awareness work, not just
-            completed a certification program. The capacity to help someone else see their blind
-            spots depends on having genuinely confronted your own. Ask about their personal story
-            and the experiences that shaped their approach.
-          </p>
-          <p
-            style={{
-              fontSize: "1.0625rem",
-              lineHeight: 1.7,
-              color: "#4a4035",
-              marginBottom: "1rem",
-            }}
-          >
-            Second, notice whether the coach is selling a system or offering a genuine inquiry.
-            Consciousness work is not a curriculum. If the methodology feels more like a product
-            than a conversation, that is worth examining.
-          </p>
-          <p
-            style={{
-              fontSize: "1.0625rem",
-              lineHeight: 1.7,
-              color: "#4a4035",
-            }}
-          >
-            Third, trust your direct experience in an initial conversation. A skilled consciousness
-            coach will help you see something new in the first session. If you leave the discovery
-            call feeling heard but unchanged, that is useful information.
-          </p>
-        </div>
-      </section>
 
       {/* ── BEEPBALL CREDIBILITY ── */}
       <section style={{ backgroundColor: "#F5F0E8", padding: "6rem 0" }}>
@@ -981,7 +748,7 @@ export default function Home() {
               color: "#0E0E0E",
             }}
           >
-            Ready to Begin? Book a Free Discovery Call
+            The work is in the seeing.
           </h2>
           <p
             style={{
@@ -991,14 +758,18 @@ export default function Home() {
               marginBottom: "2.5rem",
             }}
           >
-            The best way to know whether consciousness coaching is right for you is to experience
-            a conversation. The discovery call is free, there is no obligation, and you will leave
-            with something useful regardless of what you decide. Come ready to be honest about
-            where you are.
+            If you have done the therapy, the coaching, the courses — and something is still
+            missing — the pattern you keep hitting is not about effort. It is about a blind spot
+            that has not been seen yet. That is the work.
           </p>
-          <Link href="/work-with-me" className="btn-primary">
-            Work with me
-          </Link>
+          <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", justifyContent: "center" }}>
+            <Link href="/work-with-me" className="btn-primary">
+              Work With Justin
+            </Link>
+            <Link href="/speaking" className="btn-secondary-dark">
+              Book Justin to Speak
+            </Link>
+          </div>
         </div>
       </section>
 

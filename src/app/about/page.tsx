@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Mindset Coach: Transform Your Thinking and Unlock Your Potential",
+  title: "About Justin Holland — Blind Spots, Consciousness, and Seeing Clearly",
   description:
-    "Work with a mindset coach to break through limiting beliefs, build confidence, and achieve your goals. Discover how mindset coaching can change your life.",
+    "Justin Holland went blind at twenty. A decade later, a genuine awakening changed everything he understood about why people stay stuck. This is the story behind the work.",
 };
 
 export default function About() {
@@ -82,9 +82,10 @@ export default function About() {
               marginBottom: "1.5rem",
             }}
           >
-            Justin Holland was twenty years old when a beer bottle shattered across his face. The
-            doctors told him he might not see again. What followed was not the story most people
-            expect.
+            Justin Holland was twenty years old when a beer bottle was smashed across his face
+            during a fight outside a girlfriend&apos;s apartment. He moved back home. Weeks
+            later he was legally blind. Months after that came the diagnosis: a genetic condition
+            the head trauma had likely triggered.
           </p>
           <p
             style={{
@@ -94,10 +95,70 @@ export default function About() {
               marginBottom: "1.5rem",
             }}
           >
-            There was no rage. No collapse. In the stillness of the hospital — stripped of every
-            distraction, every performance, every familiar shape of his life — something became
-            quiet. And into that quiet, he asked two questions he had never had the silence to ask
-            before. Simple ones. The ones most people are too busy to reach.
+            He did not have the awakening then. He was still running.
+          </p>
+          <p
+            style={{
+              fontSize: "1.125rem",
+              lineHeight: 1.8,
+              color: "#3a3028",
+              marginBottom: "1.5rem",
+            }}
+          >
+            What followed was years of outrunning everything he had not dealt with. A YouTube
+            channel as a blind bodybuilder. Bodybuilding competitions. Sales careers. Businesses
+            started and closed. Money made and spent. A marriage that had become two people
+            sharing the same space and nothing deeper. Alcohol as a way to manage the gap between
+            the life he was living and the one he could feel himself capable of.
+          </p>
+          <p
+            style={{
+              fontSize: "1.125rem",
+              lineHeight: 1.8,
+              color: "#3a3028",
+              marginBottom: "1.5rem",
+            }}
+          >
+            The turning point was not going blind. It was July 4th, 2022 — blackout drunk, raging,
+            coming home and frightening his wife. The next morning she told him she could not keep
+            doing this. That night he found a livestream from a man who had been sober for three
+            years and described a drinking pattern that sounded exactly like his. Justin quit that
+            day.
+          </p>
+          <p
+            style={{
+              fontSize: "1.125rem",
+              lineHeight: 1.8,
+              color: "#3a3028",
+              marginBottom: "1.5rem",
+            }}
+          >
+            What followed was an obsession — with how the mind works, with shadow, with belief,
+            with identity. He dove into inner work with a seriousness he had not brought to
+            anything before.
+          </p>
+          <p
+            style={{
+              fontSize: "1.125rem",
+              lineHeight: 1.8,
+              color: "#3a3028",
+              marginBottom: "1.5rem",
+            }}
+          >
+            Then, in 2023, in a session inside a men&apos;s brotherhood he had invested in,
+            something happened that years of effort had not produced. He went into integration.
+            The moment arrived.
+          </p>
+          <p
+            style={{
+              fontSize: "1.125rem",
+              lineHeight: 1.8,
+              color: "#3a3028",
+              marginBottom: "1.5rem",
+            }}
+          >
+            He asked himself two questions. Simple ones. The ones most people never stop long
+            enough to ask.
           </p>
           <p
             style={{
@@ -117,21 +178,7 @@ export default function About() {
               marginBottom: "1.5rem",
             }}
           >
-            The answer did not arrive as a thought. It arrived as a recognition. He was not the
-            body in the bed. He was not the fear the room held. He was the one aware of all of it
-            — the steady presence behind every experience, the part that could not be shattered by
-            a bottle or dimmed by a diagnosis.
-          </p>
-          <p
-            style={{
-              fontSize: "1.125rem",
-              lineHeight: 1.8,
-              color: "#3a3028",
-              marginBottom: "1.5rem",
-            }}
-          >
-            He calls going blind his radioactive spider bite. The thing that looked like destruction
-            and turned out to be the beginning of something else entirely.
+            The answer arrived. Not from outside. From the inside of the inside.
           </p>
           <p
             style={{
@@ -140,14 +187,16 @@ export default function About() {
               color: "#3a3028",
             }}
           >
-            What he found in that room became the framework he has spent years testing — in sport,
-            in relationships, in the quiet work of sitting with someone and helping them see the thing
-            they have been blind to. The same principle every time. The same result.
+            He was not his body. He was not his thoughts. He was not his emotions. He was the
+            awareness behind all of it — the one watching. And in that moment, for the first time,
+            he saw. Going blind had been the worst thing that ever happened to him. And the best.
+            It had forced him into a different relationship with perception — one that would
+            eventually teach him to see the kind of thing that physical vision cannot reveal.
           </p>
         </div>
       </section>
 
-      {/* ── WHAT IS A MINDSET COACH ── */}
+      {/* ── WHAT HE BEGAN TO SEE ── */}
       <section style={{ backgroundColor: "#F5F0E8", padding: "6rem 0" }}>
         <div className="max-w-3xl mx-auto px-6">
           <span className="line-accent" />
@@ -161,138 +210,64 @@ export default function About() {
               marginBottom: "1.5rem",
             }}
           >
-            What Is a Mindset Coach?
+            The pattern most people are blind to
           </h2>
           <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
-            A mindset coach is a trained guide who helps you identify the thoughts, beliefs, and
-            patterns that quietly limit your potential. Unlike traditional advice-giving, mindset
-            coaching focuses on shifting the way you think so that real, lasting change becomes
-            possible in every area of your life.
+            What emerged from that awakening was not a philosophy Justin read about. It was one he
+            lived into — and one he could not stop seeing once he saw it.
           </p>
           <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
-            Whether you are a professional chasing a promotion, an entrepreneur building something
-            from nothing, an athlete pushing past performance plateaus, or someone navigating a
-            personal setback, a mindset coach works with you to clear what is in the way and build
-            something stronger in its place.
+            Most people are walking through their lives creating outcomes they do not want — and
+            they are blind to the reason why. Not because they are broken. Not because they have
+            not worked hard enough. Because they cannot see the pattern. The subconscious
+            programming running underneath. The belief they carry that contradicts everything
+            they say they want.
           </p>
-          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "2rem" }}>
-            Mindset coaching is one of the most practical investments you can make. The skills you
-            build carry forward into every decision, relationship, and challenge you face.
+          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
+            We are all creators of our reality. Not in the positive-thinking sense, not in the
+            ask-the-universe sense. In the sense that our subconscious programming shapes every
+            decision, every pattern, every result. Until you can see it, you create
+            unconsciously. When you can see it, you can create deliberately.
           </p>
-
-          <h3
+          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
+            That is what a blind spot actually is. Not a character flaw. Not a trauma label.
+            A program running underneath the conscious level — invisible by nature, consequential
+            by design. You say you want one thing and keep creating the opposite, and you cannot
+            understand why. Not because something is wrong with you. Because you cannot see
+            what you cannot see.
+          </p>
+          <div
             style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.25rem, 2vw, 1.5rem)",
-              lineHeight: 1.3,
-              fontWeight: 400,
-              marginBottom: "1rem",
+              borderLeft: "3px solid #C4813A",
+              paddingLeft: "2rem",
+              margin: "2.5rem 0",
             }}
           >
-            The Difference Between a Mindset Coach and a Therapist
-          </h3>
-          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
-            Therapy and mindset coaching are complementary but different. Therapists diagnose and
-            treat mental health conditions, often working through past trauma. A mindset coach
-            focuses on your current thinking and the goals you want to reach going forward. Coaches
-            work alongside therapists when needed, but the role is distinct.
-          </p>
+            <p
+              style={{
+                fontFamily: "var(--font-dm-serif), Georgia, serif",
+                fontSize: "clamp(1.125rem, 2vw, 1.375rem)",
+                fontStyle: "italic",
+                lineHeight: 1.5,
+                color: "#1A1A1A",
+                margin: 0,
+              }}
+            >
+              Once you see it, you can&apos;t unsee it. That is not a tagline.
+              That is the mechanism.
+            </p>
+          </div>
           <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028" }}>
-            If you are mentally healthy and ready to move forward with greater clarity and
-            confidence, a mindset coach is likely the right fit for where you are right now.
-          </p>
-        </div>
-      </section>
-
-      {/* ── HOW MINDSET COACHING WORKS ── */}
-      <section style={{ backgroundColor: "#ffffff", padding: "6rem 0" }}>
-        <div className="max-w-3xl mx-auto px-6">
-          <span className="line-accent" />
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              fontWeight: 400,
-              marginBottom: "1.5rem",
-            }}
-          >
-            How Mindset Coaching Works
-          </h2>
-          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
-            Mindset coaching sessions are structured conversations with purpose. Your coach listens
-            carefully, asks precise questions, and guides you to see patterns you could not notice
-            on your own. The process is collaborative and focused on action.
-          </p>
-
-          <h3
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.25rem, 2vw, 1.5rem)",
-              lineHeight: 1.3,
-              fontWeight: 400,
-              marginBottom: "1rem",
-            }}
-          >
-            Core Techniques Used in Mindset Coaching
-          </h3>
-          <ul
-            style={{
-              fontSize: "1.0625rem",
-              lineHeight: 1.8,
-              color: "#3a3028",
-              paddingLeft: "1.5rem",
-              marginBottom: "1.5rem",
-            }}
-          >
-            <li style={{ marginBottom: "0.75rem" }}>
-              <strong>Belief mapping:</strong> Uncovering the subconscious assumptions that shape
-              your behavior without your awareness.
-            </li>
-            <li style={{ marginBottom: "0.75rem" }}>
-              <strong>Reframing:</strong> Replacing unhelpful interpretations with ones that open
-              up possibility instead of closing it down.
-            </li>
-            <li style={{ marginBottom: "0.75rem" }}>
-              <strong>Visualization and anchoring:</strong> Building a clear mental picture of
-              your goals and connecting it to feelings of certainty and readiness.
-            </li>
-            <li style={{ marginBottom: "0.75rem" }}>
-              <strong>Accountability structures:</strong> Creating systems between sessions so
-              that insights translate into consistent action.
-            </li>
-            <li style={{ marginBottom: "0.75rem" }}>
-              <strong>Pattern interruption:</strong> Breaking habitual responses so that new,
-              more effective behaviors can take root.
-            </li>
-          </ul>
-
-          <h3
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.25rem, 2vw, 1.5rem)",
-              lineHeight: 1.3,
-              fontWeight: 400,
-              marginBottom: "1rem",
-            }}
-          >
-            Setting Goals With Your Mindset Coach
-          </h3>
-          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
-            Goal setting in mindset coaching goes deeper than writing down what you want. Your coach
-            helps you connect your goals to your core values, examine whether your current beliefs
-            support those goals, and identify what might be silently working against your progress.
-          </p>
-          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028" }}>
-            When your intentions and your inner world are aligned, momentum builds naturally. You
-            stop pushing uphill and start moving forward with clarity.
+            When a blind spot is genuinely seen — not intellectually processed, not analyzed
+            further, but actually seen — the hold it has changes. Often immediately. The pattern
+            that persisted for years reveals itself, and it cannot go back to being invisible.
+            That is not magic. That is how perception works.
           </p>
         </div>
       </section>
 
       {/* ── THREE LEVELS FRAMEWORK ── */}
-      <section style={{ backgroundColor: "#F5F0E8", padding: "6rem 0" }}>
+      <section style={{ backgroundColor: "#ffffff", padding: "6rem 0" }}>
         <div className="max-w-4xl mx-auto px-6">
           <div style={{ textAlign: "center", marginBottom: "4rem" }}>
             <span className="line-accent" style={{ margin: "0 auto 1.5rem" }} />
@@ -306,11 +281,11 @@ export default function About() {
                 marginBottom: "1rem",
               }}
             >
-              Benefits of Working With a Mindset Coach
+              Three levels of blindness
             </h2>
             <p style={{ fontSize: "1.0625rem", color: "#6b6055", maxWidth: "32rem", margin: "0 auto" }}>
-              Most approaches to personal development work at one level. Justin&apos;s mindset
-              coaching addresses all three — and the integration between them.
+              Most approaches to personal development work at one level. Justin&apos;s framework
+              maps all three — and where most people get stuck between them.
             </p>
           </div>
 
@@ -328,24 +303,24 @@ export default function About() {
                 number: "01",
                 title: "Physical",
                 description:
-                  "Identifying as only the body. Seeking external solutions for internal problems. Believing that more — money, status, achievement — will finally create the feeling of enoughness.",
+                  "Identifying as only the body. Seeking external solutions for internal problems. Believing that more — money, status, achievement — will finally create the feeling of enoughness. The person working on the outside because they cannot see the inside.",
               },
               {
                 number: "02",
                 title: "Internal",
                 description:
-                  "Working at the level of thoughts and affirmations without addressing the subconscious structure generating them. Changing the symptom without finding the source.",
+                  "Understanding that the inner world matters but still identifying with thoughts and emotions as if they are you. Working at the level of affirmations without addressing the deeper subconscious programming generating the thoughts. The most common place people stall.",
               },
               {
                 number: "03",
                 title: "Spiritual",
                 description:
-                  "Understanding consciousness intellectually while bypassing actual human experience. Transcending emotion rather than integrating it. Wisdom without the ground under it.",
+                  "Understanding consciousness intellectually but using that understanding to bypass actual human experience. Transcending emotion rather than integrating it. The goal is not an enlightened master on a mountain who never gets angry. That is a different kind of blindness.",
               },
             ].map((level) => (
               <div
                 key={level.number}
-                style={{ background: "#F5F0E8", padding: "2.5rem 2rem" }}
+                style={{ background: "#ffffff", padding: "2.5rem 2rem" }}
               >
                 <span
                   style={{
@@ -396,72 +371,15 @@ export default function About() {
               }}
             >
               Justin works in the integration between all three — grounded enough to live in the
-              human experience, aware enough not to be unconsciously run by it. His position is not
-              transcendence. It is presence.
+              full human experience, aware enough not to be unconsciously run by it. The goal is
+              not transcendence. It is presence. Being conscious, feeling the emotions, learning
+              the lessons, and creating a life aligned with who you actually are.
             </p>
           </div>
         </div>
       </section>
 
-      {/* ── WHO CAN BENEFIT ── */}
-      <section style={{ backgroundColor: "#ffffff", padding: "6rem 0" }}>
-        <div className="max-w-3xl mx-auto px-6">
-          <span className="line-accent" />
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              fontWeight: 400,
-              marginBottom: "1.5rem",
-            }}
-          >
-            Who Can Benefit From Mindset Coaching?
-          </h2>
-          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
-            Mindset coaching serves a wide range of people. You do not need to be in crisis to
-            benefit. In fact, many of the most impactful results come when high achievers decide
-            to remove the hidden friction between where they are and where they want to be.
-          </p>
-          <ul
-            style={{
-              fontSize: "1.0625rem",
-              lineHeight: 1.8,
-              color: "#3a3028",
-              paddingLeft: "1.5rem",
-              marginBottom: "1.5rem",
-            }}
-          >
-            <li style={{ marginBottom: "0.75rem" }}>
-              <strong>Professionals seeking career growth</strong> who feel stuck despite strong
-              skills and a solid track record.
-            </li>
-            <li style={{ marginBottom: "0.75rem" }}>
-              <strong>Entrepreneurs building their businesses</strong> who wrestle with fear of
-              failure, imposter syndrome, or inconsistent confidence.
-            </li>
-            <li style={{ marginBottom: "0.75rem" }}>
-              <strong>Athletes looking to improve performance</strong> who know their mental game
-              is the last untrained edge.
-            </li>
-            <li style={{ marginBottom: "0.75rem" }}>
-              <strong>Individuals overcoming personal setbacks</strong> who are ready to stop
-              replaying the past and start building something new.
-            </li>
-            <li style={{ marginBottom: "0.75rem" }}>
-              <strong>Students preparing for major life transitions</strong> who want to enter the
-              next chapter with clarity and self-belief.
-            </li>
-          </ul>
-          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028" }}>
-            If you recognize yourself in any of these, a mindset coach can help you close the gap
-            between your potential and your results.
-          </p>
-        </div>
-      </section>
-
-      {/* ── ZERO STATE ── */}
+      {/* ── THE ZERO STATE ── */}
       <section style={{ backgroundColor: "#F5F0E8", padding: "6rem 0" }}>
         <div className="max-w-3xl mx-auto px-6">
           <span className="line-accent" />
@@ -475,170 +393,30 @@ export default function About() {
               marginBottom: "1.5rem",
             }}
           >
-            What to Expect in Your First Session
+            What changes when the blind spot is seen
           </h2>
           <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
-            Your first mindset coaching session is a discovery call and an orientation. You will
-            share what is not working, what you want instead, and what you have already tried. Your
-            coach will listen without judgment and begin mapping the thinking patterns underneath
-            your challenge.
+            Justin still encounters his own blind spots. That is not a contradiction — it is the
+            whole point. The work is not a destination. It is a practice of becoming more
+            conscious, more able to see what is running underneath, more able to create from
+            alignment rather than from subconscious programming.
           </p>
           <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
-            Athletes call it flow state. Musicians call it being in the pocket. Justin calls it zero.
+            Athletes call it flow. Musicians call it the pocket. Justin calls it zero. Not
+            emptiness — alignment. The state that becomes available when your intention, your
+            beliefs, your emotions, and your actions are no longer fighting each other. At zero,
+            you are not pushing. What needs to happen moves through you.
           </p>
           <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
-            Zero is not emptiness. It is alignment — when intention, belief, emotion, and action are
-            no longer fighting each other. At zero, what needs to happen moves through you. You are
-            not pushing. You are not forcing. There is nothing in the way.
+            Zero is not achieved by trying harder. It is accessed by removing what is in the
+            way — the counterintentions, the blind spots, the old programs creating internal
+            friction. The clearing is the work. The zero state is what is already present when
+            the clearing happens.
           </p>
           <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028" }}>
-            Zero is not achieved by trying harder. It is accessed by releasing what is in the way —
-            specifically, the blind spots, the counterintentions, the old programs running underneath
-            every conscious effort. The clearing is the work. The zero state is what is already
-            present when the clearing happens.
-          </p>
-        </div>
-      </section>
-
-      {/* ── HOW TO CHOOSE ── */}
-      <section style={{ backgroundColor: "#ffffff", padding: "6rem 0" }}>
-        <div className="max-w-3xl mx-auto px-6">
-          <span className="line-accent" />
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              fontWeight: 400,
-              marginBottom: "1.5rem",
-            }}
-          >
-            How to Choose the Right Mindset Coach
-          </h2>
-          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
-            Not every coach is the right fit for every person. Here are a few things to look for
-            when choosing a mindset coach.
-          </p>
-
-          <h3
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.25rem, 2vw, 1.5rem)",
-              lineHeight: 1.3,
-              fontWeight: 400,
-              marginBottom: "1rem",
-            }}
-          >
-            Building a Growth Mindset Step by Step
-          </h3>
-          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
-            A great mindset coach does not just hand you a new set of affirmations. They work with
-            you step by step to identify where your current thinking breaks down, introduce new
-            frameworks that fit your life, and build consistent habits that reinforce a growth
-            mindset over time. Look for a coach who has a clear process rather than just a
-            collection of motivational phrases.
-          </p>
-
-          <h3
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.25rem, 2vw, 1.5rem)",
-              lineHeight: 1.3,
-              fontWeight: 400,
-              marginBottom: "1rem",
-            }}
-          >
-            Online vs. In-Person Mindset Coaching
-          </h3>
-          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
-            Online mindset coaching has become just as effective as in-person work for most clients.
-            Video sessions offer flexibility, remove commute barriers, and allow you to work with
-            the best coach for your needs regardless of location. If you have been searching for a
-            mindset coach near you and not finding the right match, expanding your search to online
-            coaching opens up far more options.
-          </p>
-          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028" }}>
-            The most important factor is the quality of the relationship and the coach&apos;s
-            ability to challenge and support you in equal measure.
-          </p>
-        </div>
-      </section>
-
-      {/* ── COMMON MINDSET BLOCKS ── */}
-      <section style={{ backgroundColor: "#F5F0E8", padding: "6rem 0" }}>
-        <div className="max-w-3xl mx-auto px-6">
-          <span className="line-accent" />
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              fontWeight: 400,
-              marginBottom: "1.5rem",
-            }}
-          >
-            Common Mindset Blocks We Help You Overcome
-          </h2>
-          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.5rem" }}>
-            Every client arrives with a unique story. But underneath the surface, the blocks tend
-            to fall into recognizable patterns. Here are three of the most common ones and how
-            mindset coaching addresses them.
-          </p>
-
-          <h3
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.25rem, 2vw, 1.5rem)",
-              lineHeight: 1.3,
-              fontWeight: 400,
-              marginBottom: "1rem",
-            }}
-          >
-            Overcoming Imposter Syndrome
-          </h3>
-          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.5rem" }}>
-            Imposter syndrome is the persistent feeling that you do not deserve your success and
-            that others will eventually figure that out. It is one of the most common blocks for
-            high achievers. A mindset coach helps you trace this belief to its origin, challenge
-            the evidence supporting it, and replace it with a more accurate and empowering
-            self-assessment.
-          </p>
-
-          <h3
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.25rem, 2vw, 1.5rem)",
-              lineHeight: 1.3,
-              fontWeight: 400,
-              marginBottom: "1rem",
-            }}
-          >
-            Breaking Free From Self-Doubt
-          </h3>
-          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.5rem" }}>
-            Self-doubt is not a character flaw. It is a learned response. Somewhere along the way,
-            a message got repeated often enough that it became a belief. Mindset coaching interrupts
-            that pattern and builds a new one rooted in evidence, action, and genuine self-trust.
-          </p>
-
-          <h3
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.25rem, 2vw, 1.5rem)",
-              lineHeight: 1.3,
-              fontWeight: 400,
-              marginBottom: "1rem",
-            }}
-          >
-            Creating Lasting Behavioral Change
-          </h3>
-          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028" }}>
-            Most people know what they should do. The gap between knowing and doing is where
-            mindset coaching lives. By working at the level of belief and identity rather than
-            just behavior, your coach helps you become the kind of person who naturally takes the
-            actions that lead to your goals.
+            This is not a promise that life becomes painless. Challenge is part of being alive.
+            What changes is the unconscious loop — the suffering that comes from creating the
+            same outcomes repeatedly without being able to see the pattern running underneath.
           </p>
         </div>
       </section>
@@ -678,9 +456,10 @@ export default function About() {
                 honors at the 2025 Thunder Tournament and competed at the Beepball World Series.
               </p>
               <p style={{ color: "#c8bfb0", lineHeight: 1.75, fontSize: "1.0625rem" }}>
-                The same alignment. The same clearing of counterintention. The same access to zero —
-                applied to a sport played without sight. Not as a metaphor for his philosophy. As
-                a direct expression of it.
+                The same alignment. The same clearing of counterintention. The same access to
+                zero — applied to a sport played without sight. Not as a metaphor for his
+                philosophy. As a direct expression of it. The work does not require physical
+                vision. It requires a different kind of noticing.
               </p>
             </div>
 
@@ -728,34 +507,34 @@ export default function About() {
               marginBottom: "2.5rem",
             }}
           >
-            Frequently Asked Questions About Mindset Coaching
+            Questions worth asking
           </h2>
 
           {[
             {
-              question: "What does a mindset coach do?",
+              question: "What exactly is a blind spot?",
               answer:
-                "A mindset coach helps you identify limiting beliefs and negative thought patterns that hold you back. They guide you through practical strategies to build a stronger, more resilient way of thinking.",
+                "A blind spot is a piece of subconscious programming that contradicts your stated conscious intention. You say you want one thing — financial success, a connected relationship, a life that feels real — and keep creating the opposite. Not because you are weak, but because the program running underneath is invisible to you. By definition, you cannot see it from where you are standing. That is what makes it a blind spot.",
             },
             {
-              question: "How long does mindset coaching take?",
+              question: "How is this different from therapy or conventional coaching?",
               answer:
-                "Most clients see meaningful progress within 8 to 12 sessions. The timeline depends on your goals and how consistently you apply the work between sessions.",
+                "Therapy often helps you understand your past. Coaching often helps you build new strategies or habits. Justin's work is neither of those. It is about seeing — identifying the specific subconscious pattern that is creating the outcome you do not want, and seeing it clearly enough that it cannot go back to being invisible. That is different from analyzing it, processing it, or building new behaviors on top of it.",
             },
             {
-              question: "Is mindset coaching the same as therapy?",
+              question: "What does 'once you see it, you can't unsee it' actually mean?",
               answer:
-                "No. Mindset coaching focuses on your present thinking and future goals rather than diagnosing or treating mental health conditions. Coaches work alongside therapists but serve a different purpose.",
+                "It means the breakthrough is in the perception, not the analysis. You can understand for years that you have a fear of success and still be running the pattern. The understanding is not the sight. When the sight happens — when you genuinely see the thing rather than think about it — the shift is often immediate. That is how perception works. You cannot go back to not seeing something you have actually seen.",
             },
             {
-              question: "How much does a mindset coach cost?",
+              question: "Is Justin saying that all suffering is self-created?",
               answer:
-                "Pricing varies based on experience, session length, and format. Rates typically range from $100 to $500 per session. Many coaches offer package deals for ongoing work.",
+                "No. There are real forces outside our control. There are things that happened to us that we did not choose. Justin is not saying your trauma was your fault, or that positive thinking creates outcomes. He is addressing the slice of our experience that we do have creative influence over — which is larger than most people realize — and specifically the part where we are running the same painful patterns unconsciously and cannot understand why.",
             },
             {
-              question: "Can mindset coaching be done online?",
+              question: "Who is Justin's work for?",
               answer:
-                "Yes. Online mindset coaching is just as effective as in-person sessions and gives you the flexibility to work with a coach from anywhere in the world.",
+                "People who have done the work — therapy, coaching, books, retreats — and are still hitting the same ceiling. People who have a quiet, persistent sense that something is off and cannot name what it is. People who are ready to look honestly at what they have been blind to rather than add another technique, framework, or strategy on top of the pattern that keeps producing the same result.",
             },
           ].map((faq, index) => (
             <div
@@ -799,7 +578,7 @@ export default function About() {
               marginBottom: "1.25rem",
             }}
           >
-            Book Your Free Mindset Coaching Consultation Today
+            The work is in the seeing.
           </h2>
           <p
             style={{
@@ -811,12 +590,12 @@ export default function About() {
               margin: "0 auto 2.5rem",
             }}
           >
-            Whether you bring Justin to your stage or work with him directly, the result is
+            Whether Justin brings this to your stage or works with you directly, the result is
             the same — you leave with something you cannot un-see.
           </p>
           <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
             <Link href="/speaking" className="btn-primary">
-              Book Me to Speak
+              Book Justin to Speak
             </Link>
             <Link href="/work-with-me" className="btn-secondary-dark">
               Work With Justin
