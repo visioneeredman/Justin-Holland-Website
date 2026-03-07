@@ -27,6 +27,12 @@ const keynotes = [
     description:
       "Most people are caught between two extremes: the over-spiritualized path that bypasses real life, and the purely material path that dismisses what cannot be measured. This keynote maps the integration — and why it is the only place sustainable change lives.",
   },
+  {
+    title: "The White Cane Principle",
+    audience: "Personal Development Events, High Achievers, Leadership Teams",
+    description:
+      "Most people are spending 95% of their life in moments that are not real — replaying the past or dreading the future. Justin's white cane only detects what is directly in front of him. That constraint became a framework. This keynote is about what becomes possible when you stop navigating life from what already happened or what might, and start operating from the only moment that actually exists.",
+  },
 ];
 
 const speakingFormFields = [
