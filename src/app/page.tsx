@@ -151,9 +151,9 @@ export default function Home() {
                   marginBottom: "1rem",
                 }}
               >
-                Not because the therapy was wrong. Not because the coach was bad. Not because the
-                manifestation practice was missing a step. You have done the work. And the pattern
-                is still there.
+                You have done the work. The therapy, the coaching, the programs. And the pattern
+                is still there. That is not a failure of effort. The therapy was not wrong. The
+                coach was not bad. Every approach that has not held has one thing in common.
               </p>
               <p
                 style={{
@@ -163,10 +163,9 @@ export default function Home() {
                   marginBottom: "1rem",
                 }}
               >
-                Every approach that hasn&apos;t held has one thing in common: it worked above the
-                blind spot. Affirmations, visualization, mindset shifts, goal-setting — all of it
-                operates at the conscious level while the subconscious programming underneath keeps
-                running the same pattern it always has.
+                It worked above the blind spot. Affirmations, visualization, mindset shifts,
+                goal-setting — all of it operates at the conscious level while the subconscious
+                programming underneath keeps running the same pattern it always has.
               </p>
               <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035" }}>
                 You cannot affirm your way past a blind spot you cannot see. You cannot create
@@ -275,9 +274,10 @@ export default function Home() {
             }}
           >
             Then in 2023, after a session inside a men&apos;s brotherhood, something happened that
-            years of effort had not produced. He asked two questions most people never stop long
-            enough to ask. The answer arrived — not from outside, but from the inside of the
-            inside. That framework is what he brings to the stage and to one-on-one work.
+            years of effort had not produced. Someone held up a clear mirror. He asked himself two
+            questions most people never stop long enough to sit with. He saw it — the pattern, the
+            subconscious programming, the thing that had been running everything. Once he saw it,
+            he could not unsee it.
           </p>
           <Link href="/about" className="btn-secondary-dark">
             Read the Full Story
@@ -354,7 +354,7 @@ export default function Home() {
                 marginBottom: "1rem",
               }}
             >
-              How I Work
+              How Justin Works
             </span>
             <h2
               style={{
@@ -579,9 +579,9 @@ export default function Home() {
                   marginBottom: "2rem",
                 }}
               >
-                The same alignment. The same clearing of what blocks you. The same access to what
-                athletes call flow state, applied to a sport where you cannot see the ball.
-                This is not metaphor. This is the philosophy in action.
+                The same alignment. The same clearing of what blocks you. The same access to zero —
+                applied to a sport where you cannot see the ball. This is not metaphor. This is the
+                philosophy in action.
               </p>
               <Link href="/about" className="btn-secondary-dark">
                 Read His Story

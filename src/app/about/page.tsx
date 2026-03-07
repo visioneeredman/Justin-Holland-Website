@@ -133,9 +133,9 @@ export default function About() {
               marginBottom: "1.5rem",
             }}
           >
-            What followed was an obsession — with how the mind works, with shadow, with belief,
-            with identity. He dove into inner work with a seriousness he had not brought to
-            anything before.
+            What followed was an obsession — with how the mind actually works, with patterns,
+            beliefs, and subconscious programming. He dove into it with a seriousness he had not
+            brought to anything before.
           </p>
           <p
             style={{
@@ -158,7 +158,7 @@ export default function About() {
             }}
           >
             He asked himself two questions. Simple ones. The ones most people never stop long
-            enough to ask.
+            enough to sit with.
           </p>
           <p
             style={{
@@ -175,23 +175,13 @@ export default function About() {
               fontSize: "1.125rem",
               lineHeight: 1.8,
               color: "#3a3028",
-              marginBottom: "1.5rem",
             }}
           >
-            The answer arrived. Not from outside. From the inside of the inside.
-          </p>
-          <p
-            style={{
-              fontSize: "1.125rem",
-              lineHeight: 1.8,
-              color: "#3a3028",
-            }}
-          >
-            He was not his body. He was not his thoughts. He was not his emotions. He was the
-            awareness behind all of it — the one watching. And in that moment, for the first time,
-            he saw. Going blind had been the worst thing that ever happened to him. And the best.
-            It had forced him into a different relationship with perception — one that would
-            eventually teach him to see the kind of thing that physical vision cannot reveal.
+            The answer arrived. He saw it — for the first time. Going blind had forced him to face
+            what he had been running from. It changed how he saw everything. When you change how
+            you look at things, what you look at changes. Through that shift — and a natural gift
+            for introspection and genuine curiosity — the clarity came. And once it came, it could
+            not be unseen.
           </p>
         </div>
       </section>
@@ -261,7 +251,7 @@ export default function About() {
             When a blind spot is genuinely seen — not intellectually processed, not analyzed
             further, but actually seen — the hold it has changes. Often immediately. The pattern
             that persisted for years reveals itself, and it cannot go back to being invisible.
-            That is not magic. That is how perception works.
+            That is not magic. That is how awareness works.
           </p>
         </div>
       </section>
@@ -524,7 +514,7 @@ export default function About() {
             {
               question: "What does 'once you see it, you can't unsee it' actually mean?",
               answer:
-                "It means the breakthrough is in the perception, not the analysis. You can understand for years that you have a fear of success and still be running the pattern. The understanding is not the sight. When the sight happens — when you genuinely see the thing rather than think about it — the shift is often immediate. That is how perception works. You cannot go back to not seeing something you have actually seen.",
+                "It means the breakthrough is in the seeing, not the analysis. You can understand for years that you have a fear of success and still be running the pattern. The understanding is not the sight. When the sight happens — when you genuinely see the thing rather than think about it — the shift is often immediate. That is how awareness works. You cannot go back to not seeing something you have actually seen.",
             },
             {
               question: "Is Justin saying that all suffering is self-created?",
