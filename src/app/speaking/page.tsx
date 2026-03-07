@@ -1,45 +1,17 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import PlaceholderForm from "@/components/PlaceholderForm";
 
 export const metadata: Metadata = {
   title: "Speaking — Justin Holland",
   description:
-    "Justin Holland brings paradigm-shifting keynotes to conferences, corporate events, and personal development gatherings. He leaves audiences with something they cannot un-see.",
+    "Justin Holland is a speaker on blind spots, human potential, and the subconscious programming that keeps people stuck. He leaves audiences with something they cannot undo.",
 };
-
-const keynotes = [
-  {
-    title: "Blind Spots in Leadership",
-    audience: "Corporate, Leadership Teams, Executives",
-    description:
-      "The patterns organizations cannot see are the ones driving the outcomes they do not want. This keynote reveals the invisible dynamics underneath team friction, leadership plateaus, and culture misfires — and what shifts when they are finally seen.",
-  },
-  {
-    title: "Consciousness and Human Potential",
-    audience: "Personal Development Events, Wellness Organizations, Consciousness Communities",
-    description:
-      "A grounded, non-woo-woo framework for understanding why people stay stuck despite doing everything right — and what actually changes when the blind spot is removed. Not theory. Built from lived experience.",
-  },
-  {
-    title: "The Middle Path",
-    audience: "Spiritually-Curious, Mission-Driven Organizations, Personal Development",
-    description:
-      "Most people are caught between two extremes: the over-spiritualized path that bypasses real life, and the purely material path that dismisses what cannot be measured. This keynote maps the integration — and why it is the only place sustainable change lives.",
-  },
-  {
-    title: "The White Cane Principle",
-    audience: "Personal Development Events, High Achievers, Leadership Teams",
-    description:
-      "Most people are spending 95% of their life in moments that are not real — replaying the past or dreading the future. Justin's white cane only detects what is directly in front of him. That constraint became a framework. This keynote is about what becomes possible when you stop navigating life from what already happened or what might, and start operating from the only moment that actually exists.",
-  },
-];
 
 const speakingFormFields = [
   { name: "name", label: "Your Name", type: "text" as const, placeholder: "Full name", required: true },
   { name: "email", label: "Email", type: "email" as const, placeholder: "your@email.com", required: true },
   { name: "organization", label: "Organization or Event", type: "text" as const, placeholder: "Company, conference, or event name", required: true },
-  { name: "message", label: "Tell me about your event", type: "textarea" as const, placeholder: "Share your event date, expected audience, and what you're hoping people leave with.", required: true },
+  { name: "message", label: "Tell me about your event", type: "textarea" as const, placeholder: "Share your event date, expected audience size, and what you are hoping people leave with.", required: true },
 ];
 
 export default function Speaking() {
@@ -85,144 +57,76 @@ export default function Speaking() {
               fontSize: "clamp(1rem, 1.5vw, 1.1875rem)",
               lineHeight: 1.7,
               color: "#c8bfb0",
-              maxWidth: "36rem",
+              maxWidth: "38rem",
             }}
           >
-            That is what Justin leaves in a room. Not motivation. Not a framework to implement on the flight home. A room that has genuinely seen something about itself it could not see before.
+            What Justin leaves in a room is not inspiration that fades on the drive home.
+            It is a shift the audience cannot undo.
           </p>
         </div>
       </section>
 
-
-      {/* ── WHAT HE BRINGS ── */}
+      {/* ── THE DIFFERENTIATOR ── */}
       <section style={{ backgroundColor: "#ffffff", padding: "6rem 0" }}>
         <div className="max-w-4xl mx-auto px-6">
-          <span className="line-accent" />
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              fontWeight: 400,
-              marginBottom: "2.5rem",
-            }}
-          >
-            What Justin brings to the stage
-          </h2>
-          <div className="speaking-bullets">
-            {[
-              "A genuinely unusual origin story that serves as both context and metaphor — not a manufactured narrative, but one earned through experience",
-              "The ability to hold a room at the edge of an insight — not through hype or performance, but through the weight of truth said clearly",
-              "Practical philosophy that applies to business performance, leadership, relationships, and personal development simultaneously",
-              "The clear mirror dynamic — audiences consistently report that the keynote felt like it was speaking directly to them, not at them",
-            ].map((point, i) => (
-              <div
-                key={i}
+          <div className="speak-two-col">
+            <div>
+              <span className="line-accent" />
+              <h2
                 style={{
-                  display: "flex",
-                  gap: "1.25rem",
-                  alignItems: "flex-start",
-                  marginBottom: "1.5rem",
+                  fontFamily: "var(--font-dm-serif), Georgia, serif",
+                  fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
+                  lineHeight: 1.2,
+                  letterSpacing: "-0.02em",
+                  fontWeight: 400,
+                  marginBottom: "1.25rem",
                 }}
               >
-                <span
-                  style={{
-                    display: "block",
-                    width: "1.5rem",
-                    height: "1px",
-                    background: "#C4813A",
-                    flexShrink: 0,
-                    marginTop: "0.75rem",
-                  }}
-                  aria-hidden="true"
-                />
-                <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035", margin: 0 }}>
-                  {point}
-                </p>
-              </div>
-            ))}
+                He is legally blind.
+                <br />
+                He speaks about blind spots.
+              </h2>
+              <p style={{ fontSize: "1.0625rem", lineHeight: 1.75, color: "#4a4035", marginBottom: "1rem" }}>
+                That is not a metaphor. It is the origin of the work — and it is what makes
+                Justin impossible to place in the same category as anyone else on a speaker roster.
+              </p>
+              <p style={{ fontSize: "1.0625rem", lineHeight: 1.75, color: "#4a4035" }}>
+                Most speakers bring a message. Justin brings something the audience did not know
+                was missing — a clear view of the subconscious programming that has been quietly
+                creating the outcomes they say they do not want. In their business. Their
+                relationships. Their sense of what is possible.
+              </p>
+            </div>
+
+            <div
+              style={{
+                background: "#F5F0E8",
+                padding: "2.5rem",
+                borderLeft: "3px solid #C4813A",
+              }}
+            >
+              <p
+                style={{
+                  fontFamily: "var(--font-dm-serif), Georgia, serif",
+                  fontSize: "clamp(1.125rem, 2vw, 1.375rem)",
+                  fontStyle: "italic",
+                  lineHeight: 1.55,
+                  color: "#1A1A1A",
+                  margin: 0,
+                }}
+              >
+                &ldquo;Your audience will not leave with a framework to implement.
+                They will leave having seen something about themselves they could not see before.
+                That is a different kind of result.&rdquo;
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* ── KEYNOTE THEMES ── */}
+      {/* ── WHAT HE SPEAKS ABOUT ── */}
       <section style={{ backgroundColor: "#F5F0E8", padding: "6rem 0" }}>
-        <div className="max-w-5xl mx-auto px-6">
-          <div style={{ textAlign: "center", marginBottom: "4rem" }}>
-            <span
-              style={{
-                display: "block",
-                fontSize: "0.75rem",
-                letterSpacing: "0.12em",
-                textTransform: "uppercase",
-                color: "#C4813A",
-                marginBottom: "1rem",
-              }}
-            >
-              Keynote Themes
-            </span>
-            <h2
-              style={{
-                fontFamily: "var(--font-dm-serif), Georgia, serif",
-                fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
-                lineHeight: 1.2,
-                letterSpacing: "-0.02em",
-                fontWeight: 400,
-              }}
-            >
-              What Justin speaks about
-            </h2>
-          </div>
-
-          <div style={{ display: "flex", flexDirection: "column", gap: "2px", background: "#e8e2d8" }}>
-            {keynotes.map((keynote, i) => (
-              <div
-                key={i}
-                style={{
-                  background: "#ffffff",
-                  padding: "2.5rem",
-                  display: "grid",
-                  gridTemplateColumns: "1fr 2fr",
-                  gap: "3rem",
-                  alignItems: "start",
-                }}
-                className="keynote-row"
-              >
-                <div>
-                  <h3
-                    style={{
-                      fontFamily: "var(--font-dm-serif), Georgia, serif",
-                      fontSize: "1.25rem",
-                      fontWeight: 400,
-                      marginBottom: "0.5rem",
-                    }}
-                  >
-                    {keynote.title}
-                  </h3>
-                  <p
-                    style={{
-                      fontSize: "0.8125rem",
-                      letterSpacing: "0.04em",
-                      textTransform: "uppercase",
-                      color: "#C4813A",
-                    }}
-                  >
-                    {keynote.audience}
-                  </p>
-                </div>
-                <p style={{ fontSize: "1rem", lineHeight: 1.7, color: "#4a4035", margin: 0 }}>
-                  {keynote.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── WHO HIRES JUSTIN ── */}
-      <section style={{ backgroundColor: "#0E0E0E", color: "#F5F0E8", padding: "6rem 0" }}>
-        <div className="max-w-4xl mx-auto px-6">
+        <div className="max-w-3xl mx-auto px-6">
           <span
             style={{
               display: "block",
@@ -233,8 +137,38 @@ export default function Speaking() {
               marginBottom: "1.5rem",
             }}
           >
-            Who Books Justin
+            What Justin Speaks About
           </span>
+          <h2
+            style={{
+              fontFamily: "var(--font-dm-serif), Georgia, serif",
+              fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
+              lineHeight: 1.2,
+              letterSpacing: "-0.02em",
+              fontWeight: 400,
+              marginBottom: "2rem",
+            }}
+          >
+            One territory. Every audience.
+          </h2>
+          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
+            Justin speaks about blind spots — the subconscious programming that creates the
+            patterns people cannot break no matter what they try. He speaks about what it means
+            to align with your True Self and true purpose. He speaks about the White Cane
+            Principle: why most people are navigating their lives from the past or the future,
+            and what changes when they stop.
+          </p>
+          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028" }}>
+            The specific topic is shaped around your audience. The core of the talk is always
+            the same: the blind spot is the thing every other approach has been working around.
+            Once an audience sees that, they cannot unsee it.
+          </p>
+        </div>
+      </section>
+
+      {/* ── WHO BOOKS JUSTIN ── */}
+      <section style={{ backgroundColor: "#0E0E0E", color: "#F5F0E8", padding: "6rem 0" }}>
+        <div className="max-w-4xl mx-auto px-6">
           <h2
             style={{
               fontFamily: "var(--font-dm-serif), Georgia, serif",
@@ -245,7 +179,7 @@ export default function Speaking() {
               marginBottom: "3rem",
             }}
           >
-            Events where the work lands
+            Events where this lands
           </h2>
 
           <div
@@ -258,10 +192,22 @@ export default function Speaking() {
             className="who-grid"
           >
             {[
-              { title: "Conferences &amp; Summits", desc: "Personal development, consciousness, human potential, leadership, and performance-focused events." },
-              { title: "Corporate Offsites &amp; Retreats", desc: "Organizations seeking a non-standard perspective on team performance, culture, and leadership." },
-              { title: "Personal Development Events", desc: "Gatherings where the audience is already invested in growth and ready to go deeper than motivation." },
-              { title: "Podcast &amp; Media Appearances", desc: "Conversations about consciousness, human potential, blind spots, and what most coaches are missing." },
+              {
+                title: "Personal Development Events",
+                desc: "Audiences already invested in growth and ready for something that goes deeper than motivation.",
+              },
+              {
+                title: "Consciousness & Spirituality Gatherings",
+                desc: "Communities exploring human potential, non-duality, and what is possible when the blind spot is cleared.",
+              },
+              {
+                title: "Corporate Leadership Offsites",
+                desc: "Leadership teams and executives who want a non-standard perspective on performance, culture, and what is actually in the way.",
+              },
+              {
+                title: "Podcasts & Media",
+                desc: "Conversations about blind spots, subconscious programming, human potential, and why most people are still stuck after doing everything right.",
+              },
             ].map((item, i) => (
               <div key={i} style={{ background: "#0E0E0E", padding: "2rem" }}>
                 <h3
@@ -272,8 +218,9 @@ export default function Speaking() {
                     marginBottom: "0.75rem",
                     color: "#F5F0E8",
                   }}
-                  dangerouslySetInnerHTML={{ __html: item.title }}
-                />
+                >
+                  {item.title}
+                </h3>
                 <p style={{ color: "#9a9080", fontSize: "0.9375rem", lineHeight: 1.7 }}>
                   {item.desc}
                 </p>
@@ -314,10 +261,15 @@ export default function Speaking() {
       </section>
 
       <style>{`
-        .keynote-row { grid-template-columns: 1fr 2fr !important; }
+        .speak-two-col {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 4rem;
+          align-items: start;
+        }
         .who-grid { grid-template-columns: repeat(2, 1fr) !important; }
         @media (max-width: 768px) {
-          .keynote-row { grid-template-columns: 1fr !important; gap: 1rem !important; }
+          .speak-two-col { grid-template-columns: 1fr !important; }
           .who-grid { grid-template-columns: 1fr !important; }
         }
       `}</style>
