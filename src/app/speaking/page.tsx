@@ -60,14 +60,50 @@ export default function Speaking() {
               maxWidth: "38rem",
             }}
           >
-            What Justin leaves in a room is not inspiration that fades on the drive home.
-            It is a shift the audience cannot undo.
+            If you are looking for a speaker your audience will still be thinking about weeks later —
+            not because it was entertaining, but because something genuinely shifted — this is
+            the page for that.
           </p>
         </div>
       </section>
 
-      {/* ── THE DIFFERENTIATOR ── */}
+      {/* ── THE PROBLEM WITH MOST SPEAKERS ── */}
       <section style={{ backgroundColor: "#ffffff", padding: "6rem 0" }}>
+        <div className="max-w-3xl mx-auto px-6">
+          <span className="line-accent" />
+          <h2
+            style={{
+              fontFamily: "var(--font-dm-serif), Georgia, serif",
+              fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
+              lineHeight: 1.2,
+              letterSpacing: "-0.02em",
+              fontWeight: 400,
+              marginBottom: "1.25rem",
+            }}
+          >
+            Your audience has heard the motivation speech.
+          </h2>
+          <p style={{ fontSize: "1.0625rem", lineHeight: 1.75, color: "#4a4035", marginBottom: "1rem" }}>
+            They have clapped, taken notes, and gone home feeling inspired. And by Wednesday,
+            nothing changed. The same patterns. The same frustrations. The same ceiling.
+          </p>
+          <p style={{ fontSize: "1.0625rem", lineHeight: 1.75, color: "#4a4035", marginBottom: "1rem" }}>
+            The reason is not the speaker. It is that motivation works above the blind spot.
+            Affirmations, mindset tools, peak experience events — all of it operates at the
+            conscious level while the subconscious programming underneath keeps running the
+            same pattern it always has.
+          </p>
+          <p style={{ fontSize: "1.0625rem", lineHeight: 1.75, color: "#4a4035" }}>
+            What Justin brings to a room is different. He does not motivate. He asks the
+            questions that reveal the blind spot — the thing the audience could not see about
+            what they have been creating. Once they see it, they cannot unsee it. That is a
+            different kind of result.
+          </p>
+        </div>
+      </section>
+
+      {/* ── WHAT YOUR AUDIENCE LEAVES WITH ── */}
+      <section style={{ backgroundColor: "#F5F0E8", padding: "6rem 0" }}>
         <div className="max-w-4xl mx-auto px-6">
           <div className="speak-two-col">
             <div>
@@ -82,87 +118,40 @@ export default function Speaking() {
                   marginBottom: "1.25rem",
                 }}
               >
-                He is legally blind.
-                <br />
-                He speaks about blind spots.
+                What your audience leaves with
               </h2>
-              <p style={{ fontSize: "1.0625rem", lineHeight: 1.75, color: "#4a4035", marginBottom: "1rem" }}>
-                That is not a metaphor. It is the origin of the work — and it is what makes
-                Justin impossible to place in the same category as anyone else on a speaker roster.
-              </p>
-              <p style={{ fontSize: "1.0625rem", lineHeight: 1.75, color: "#4a4035" }}>
-                Most speakers bring a message. Justin brings something the audience did not know
-                was missing — a clear view of the subconscious programming that has been quietly
-                creating the outcomes they say they do not want. In their business. Their
-                relationships. Their sense of what is possible.
-              </p>
+              {[
+                "A genuine shift in how they understand what has been keeping them stuck — not a new strategy to try, but a blind spot they can finally see",
+                "A framework for understanding why the same pattern keeps showing up across their business, relationships, and life — and what is actually at the root",
+                "Something they will still be thinking about weeks later — because once you see it, you cannot unsee it",
+              ].map((point, i) => (
+                <div key={i} style={{ display: "flex", gap: "1.25rem", alignItems: "flex-start", marginBottom: "1.25rem" }}>
+                  <span
+                    style={{ display: "block", width: "1.5rem", height: "1px", background: "#C4813A", flexShrink: 0, marginTop: "0.75rem" }}
+                    aria-hidden="true"
+                  />
+                  <p style={{ fontSize: "1rem", lineHeight: 1.7, color: "#4a4035", margin: 0 }}>{point}</p>
+                </div>
+              ))}
             </div>
 
-            <div
-              style={{
-                background: "#F5F0E8",
-                padding: "2.5rem",
-                borderLeft: "3px solid #C4813A",
-              }}
-            >
+            <div style={{ background: "#0E0E0E", padding: "2.5rem", borderLeft: "3px solid #C4813A" }}>
               <p
                 style={{
                   fontFamily: "var(--font-dm-serif), Georgia, serif",
                   fontSize: "clamp(1.125rem, 2vw, 1.375rem)",
                   fontStyle: "italic",
                   lineHeight: 1.55,
-                  color: "#1A1A1A",
+                  color: "#F5F0E8",
                   margin: 0,
                 }}
               >
-                &ldquo;Your audience will not leave with a framework to implement.
+                &ldquo;Your audience will not leave with a framework to implement on the flight home.
                 They will leave having seen something about themselves they could not see before.
                 That is a different kind of result.&rdquo;
               </p>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* ── WHAT HE SPEAKS ABOUT ── */}
-      <section style={{ backgroundColor: "#F5F0E8", padding: "6rem 0" }}>
-        <div className="max-w-3xl mx-auto px-6">
-          <span
-            style={{
-              display: "block",
-              fontSize: "0.75rem",
-              letterSpacing: "0.12em",
-              textTransform: "uppercase",
-              color: "#C4813A",
-              marginBottom: "1.5rem",
-            }}
-          >
-            What Justin Speaks About
-          </span>
-          <h2
-            style={{
-              fontFamily: "var(--font-dm-serif), Georgia, serif",
-              fontSize: "clamp(1.75rem, 3vw, 2.25rem)",
-              lineHeight: 1.2,
-              letterSpacing: "-0.02em",
-              fontWeight: 400,
-              marginBottom: "2rem",
-            }}
-          >
-            One territory. Every audience.
-          </h2>
-          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
-            Justin speaks about blind spots — the subconscious programming that creates the
-            patterns people cannot break no matter what they try. He speaks about what it means
-            to align with your True Self and true purpose. He speaks about the White Cane
-            Principle: why most people are navigating their lives from the past or the future,
-            and what changes when they stop.
-          </p>
-          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028" }}>
-            The specific topic is shaped around your audience. The core of the talk is always
-            the same: the blind spot is the thing every other approach has been working around.
-            Once an audience sees that, they cannot unsee it.
-          </p>
         </div>
       </section>
 
@@ -194,15 +183,15 @@ export default function Speaking() {
             {[
               {
                 title: "Personal Development Events",
-                desc: "Audiences already invested in growth and ready for something that goes deeper than motivation.",
+                desc: "Audiences already invested in growth who are ready for something that goes deeper than motivation and actually addresses the root.",
               },
               {
                 title: "Consciousness & Spirituality Gatherings",
-                desc: "Communities exploring human potential, non-duality, and what is possible when the blind spot is cleared.",
+                desc: "Communities exploring human potential, non-duality, and True Self — who want something grounded, not performative.",
               },
               {
                 title: "Corporate Leadership Offsites",
-                desc: "Leadership teams and executives who want a non-standard perspective on performance, culture, and what is actually in the way.",
+                desc: "Leadership teams who have tried the strategy and culture work and are ready to address what is actually underneath the patterns.",
               },
               {
                 title: "Podcasts & Media",
