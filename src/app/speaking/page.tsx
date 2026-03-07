@@ -76,9 +76,9 @@ export default function Speaking() {
               marginBottom: "1.5rem",
             }}
           >
-            What shifts in a room
+            Once you see it,
             <br />
-            when the blind spot is named.
+            you can&apos;t unsee it.
           </h1>
           <p
             style={{
@@ -88,7 +88,7 @@ export default function Speaking() {
               maxWidth: "36rem",
             }}
           >
-            Justin brings the same work he does one-on-one to the stage. Not motivation. Not information. The kind of clarity that leaves a room with something it cannot un-see.
+            That is what Justin leaves in a room. Not motivation. Not a framework to implement on the flight home. A room that has genuinely seen something about itself it could not see before.
           </p>
         </div>
       </section>
