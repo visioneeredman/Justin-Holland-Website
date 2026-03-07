@@ -16,12 +16,6 @@ const keynotes = [
       "The patterns organizations cannot see are the ones driving the outcomes they do not want. This keynote reveals the invisible dynamics underneath team friction, leadership plateaus, and culture misfires — and what shifts when they are finally seen.",
   },
   {
-    title: "The Zero State",
-    audience: "Performance Culture, Athletes, High Achievers",
-    description:
-      "Peak performance is not about doing more. It is about removing what is blocking the state that is already available. This keynote reframes the entire performance conversation — from effort to alignment, from striving to accessing what athletes call flow.",
-  },
-  {
     title: "Consciousness and Human Potential",
     audience: "Personal Development Events, Wellness Organizations, Consciousness Communities",
     description:

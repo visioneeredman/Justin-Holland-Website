@@ -369,7 +369,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* ── THE ZERO STATE ── */}
+      {/* ── WHAT CHANGES ── */}
       <section style={{ backgroundColor: "#F5F0E8", padding: "6rem 0" }}>
         <div className="max-w-3xl mx-auto px-6">
           <span className="line-accent" />
@@ -383,30 +383,31 @@ export default function About() {
               marginBottom: "1.5rem",
             }}
           >
-            What changes when the blind spot is seen
+            What changes when the blind spot is cleared
           </h2>
           <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
-            Justin still encounters his own blind spots. That is not a contradiction — it is the
-            whole point. The work is not a destination. It is a practice of becoming more
-            conscious, more able to see what is running underneath, more able to create from
-            alignment rather than from subconscious programming.
+            When the subconscious programming stops running the show, something shifts. You stop
+            creating from past beliefs and start creating from who you actually are — your True
+            Self. Your intention aligns with your true purpose. The internal contradiction is
+            gone. What you are building becomes more natural, less forced, because you are no
+            longer working against yourself.
           </p>
           <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
-            Athletes call it flow. Musicians call it the pocket. Justin calls it zero. Not
-            emptiness — alignment. The state that becomes available when your intention, your
-            beliefs, your emotions, and your actions are no longer fighting each other. At zero,
-            you are not pushing. What needs to happen moves through you.
+            This is what reaching your full potential actually means. Not a higher level of
+            effort. Alignment. When what you consciously want and what you subconsciously believe
+            are no longer in conflict, the outcomes start matching the intention.
           </p>
           <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
-            Zero is not achieved by trying harder. It is accessed by removing what is in the
-            way — the counterintentions, the blind spots, the old programs creating internal
-            friction. The clearing is the work. The zero state is what is already present when
-            the clearing happens.
+            This is not a promise that life becomes painless. Challenge is part of being alive.
+            What changes is the unconscious loop — creating the same outcomes repeatedly without
+            being able to see the pattern underneath.
           </p>
           <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028" }}>
-            This is not a promise that life becomes painless. Challenge is part of being alive.
-            What changes is the unconscious loop — the suffering that comes from creating the
-            same outcomes repeatedly without being able to see the pattern running underneath.
+            Justin still encounters his own blind spots. Still has his own breakthroughs. He is
+            not claiming to have arrived somewhere others have not. This is ongoing. That is the
+            point — we are continuously evolving, and it is nearly impossible to see our own
+            blind spots alone. As Justin puts it: it is like trying to see the label when you
+            are inside the bottle.
           </p>
         </div>
       </section>
@@ -447,7 +448,7 @@ export default function About() {
               </p>
               <p style={{ color: "#c8bfb0", lineHeight: 1.75, fontSize: "1.0625rem" }}>
                 The same alignment. The same clearing of counterintention. The same access to
-                zero — applied to a sport played without sight. Not as a metaphor for his
+                full alignment — applied to a sport played without sight. Not as a metaphor for his
                 philosophy. As a direct expression of it. The work does not require physical
                 vision. It requires a different kind of noticing.
               </p>

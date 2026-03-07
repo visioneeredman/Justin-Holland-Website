@@ -19,11 +19,11 @@ const articles = [
   },
   {
     slug: "coming-soon",
-    title: "The Zero State: What Flow Actually Is and How to Live There",
+    title: "What It Actually Means to Reach Your Full Potential",
     tag: "Performance",
     date: "Coming Soon",
     excerpt:
-      "Athletes call it flow. Musicians call it the pocket. I call it zero. It is not a peak state you achieve. It is what is already present when you stop blocking it.",
+      "Full potential is not a higher level of effort. It is alignment. When your conscious intention and your subconscious programming are no longer fighting each other, what you are building stops feeling like pushing.",
   },
   {
     slug: "coming-soon",

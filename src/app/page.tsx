@@ -579,9 +579,9 @@ export default function Home() {
                   marginBottom: "2rem",
                 }}
               >
-                The same alignment. The same clearing of what blocks you. The same access to zero —
-                applied to a sport where you cannot see the ball. This is not metaphor. This is the
-                philosophy in action.
+                The same alignment. The same clearing of counterintention. The same access to
+                full potential — applied to a sport where you cannot see the ball. This is not
+                metaphor. This is the philosophy in action.
               </p>
               <Link href="/about" className="btn-secondary-dark">
                 Read His Story
