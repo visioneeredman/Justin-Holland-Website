@@ -105,12 +105,18 @@ export default function WorkWithMe() {
           <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
             You are not stuck because you haven&apos;t worked hard enough. You are not stuck because
             you haven&apos;t found the right strategy. You are stuck because there is something you
-            cannot see — a pattern running underneath everything that is quietly creating the outcomes
+            cannot see — a pattern running underneath everything that keeps producing the outcomes
             you do not want.
           </p>
+          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
+            Think about what another year of that pattern costs. The relationships that follow the
+            same arc. The ceiling you hit in different rooms, with different people, in different
+            circumstances. The quiet suspicion that something is wrong with you — because everything
+            you have tried has worked for other people, just not for you, not in the way that holds.
+          </p>
           <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028" }}>
-            The pattern has nothing to do with intelligence or effort. It is invisible by definition.
-            And it stays invisible until the right mirror appears.
+            That is not a character flaw. It is a blind spot. And it stays invisible until it is
+            genuinely seen.
           </p>
         </div>
       </section>
@@ -207,7 +213,7 @@ export default function WorkWithMe() {
               {[
                 "You have done the therapy, the coaching, the reading — and something is still missing",
                 "You keep hitting the same wall in different situations",
-                "You are ready to look honestly at what you have been blind to — not looking for validation, looking for truth",
+                "You are ready to face what you have been blind to — not searching for validation, but for truth",
                 "You are done adding more things to do and ready to see the thing that is in the way",
               ].map((point, i) => (
                 <div key={i} style={{ display: "flex", gap: "1rem", alignItems: "flex-start", marginBottom: "1rem" }}>
@@ -379,6 +385,11 @@ export default function WorkWithMe() {
             >
               Begin Here
             </h2>
+            <p style={{ fontSize: "1rem", color: "#6b6055", marginBottom: "1rem" }}>
+              When the blind spot is genuinely seen — not talked about, not processed, but actually
+              seen — the pattern stops running the same way. Not because you finally pushed hard
+              enough. Because you can finally see what was in the way.
+            </p>
             <p style={{ fontSize: "1rem", color: "#6b6055" }}>
               Tell Justin what you are facing. He reads every application personally and responds
               directly.

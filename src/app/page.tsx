@@ -169,8 +169,10 @@ export default function Home() {
               </p>
               <p style={{ fontSize: "1.0625rem", lineHeight: 1.7, color: "#4a4035" }}>
                 You cannot affirm your way past a blind spot you cannot see. You cannot create
-                differently from a pattern you are unconsciously committed to. The work has to
-                happen at the level of the blind spot itself. That is what is different here.
+                differently from a pattern you are unconsciously committed to. And every year it
+                runs unaddressed is another year of the same outcomes — in relationships, in
+                business, in the life you are trying to build. The work has to happen at the level
+                of the blind spot itself. That is what is different here.
               </p>
             </div>
 
@@ -260,7 +262,7 @@ export default function Home() {
               marginBottom: "1.25rem",
             }}
           >
-            A beer bottle during a fight. Weeks later, legally blind. A genetic condition the
+            A beer bottle during a fight. Weeks later, blind. A genetic condition the
             trauma had likely triggered. Justin moved back home, learned to edit videos without
             sight, competed in bodybuilding, and kept running — through sales careers, through
             money made and spent, through everything that numbing offers.
@@ -273,11 +275,10 @@ export default function Home() {
               marginBottom: "2.5rem",
             }}
           >
-            Then in 2023, after a session inside a men&apos;s brotherhood, something happened that
-            years of effort had not produced. Someone held up a clear mirror. He asked himself two
-            questions most people never stop long enough to sit with. He saw it — the pattern, the
-            subconscious programming, the thing that had been running everything. Once he saw it,
-            he could not unsee it.
+            Then in 2023, inside a men&apos;s brotherhood, he sat with two questions he had never
+            stopped long enough to actually face. Through his own honest reckoning — not someone
+            else&apos;s answer, his own — he saw it. The pattern. The subconscious programming.
+            The thing that had been running everything. Once he saw it, he could not unsee it.
           </p>
           <Link href="/about" className="btn-secondary-dark">
             Read the Full Story
@@ -567,7 +568,7 @@ export default function Home() {
                   marginBottom: "1rem",
                 }}
               >
-                Justin is legally blind and competes in Beepball, an adaptation of baseball designed
+                Justin is blind and competes in Beepball, an adaptation of baseball designed
                 for blind and visually impaired athletes. He has hit home runs and received Offense
                 MVP honors at the 2025 Thunder Tournament.
               </p>
@@ -761,7 +762,8 @@ export default function Home() {
           >
             If you have done the therapy, the coaching, the courses — and something is still
             missing — the pattern you keep hitting is not about effort. It is about a blind spot
-            that has not been seen yet. That is the work.
+            that has not been seen yet. The question is not whether that pattern will keep running.
+            Without the sight, it will. The question is how long.
           </p>
           <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", justifyContent: "center" }}>
             <Link href="/work-with-me" className="btn-primary">
