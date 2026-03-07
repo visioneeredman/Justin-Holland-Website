@@ -3,9 +3,9 @@ import Link from "next/link";
 import PlaceholderForm from "@/components/PlaceholderForm";
 
 export const metadata: Metadata = {
-  title: "Work With Justin Holland — One-on-One Coaching",
+  title: "Transformational Life Coach | Unlock Your Full Potential",
   description:
-    "Private, direct coaching for people who have done the work and are still stuck. Justin Holland works as a clear mirror — not to fix you, but to help you see what you've been blind to.",
+    "Work with a transformational life coach to break through limits, build confidence, and create lasting change. Start your journey to a better life today.",
 };
 
 const coachingFormFields = [
@@ -53,6 +53,78 @@ export default function WorkWithMe() {
             <br />
             <em>You need to see the thing.</em>
           </h1>
+        </div>
+      </section>
+
+      {/* ── AEO INTRODUCTION ── */}
+      <section style={{ backgroundColor: "#faf7f2", padding: "4rem 0 2rem" }}>
+        <div className="max-w-3xl mx-auto px-6">
+          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "2rem" }}>
+            A transformational life coach helps you identify what is holding you back and guides you toward the life you truly want. Whether you are navigating a major change or simply feeling stuck, the right coach can make all the difference.
+          </p>
+        </div>
+      </section>
+
+      {/* ── WHAT IS A TRANSFORMATIONAL LIFE COACH ── */}
+      <section style={{ backgroundColor: "#faf7f2", padding: "2rem 0 4rem" }}>
+        <div className="max-w-3xl mx-auto px-6">
+          <h2
+            style={{
+              fontFamily: "var(--font-dm-serif), Georgia, serif",
+              fontSize: "clamp(1.5rem, 2.5vw, 2rem)",
+              lineHeight: 1.25,
+              letterSpacing: "-0.02em",
+              fontWeight: 400,
+              marginBottom: "1.25rem",
+            }}
+          >
+            What Is a Transformational Life Coach?
+          </h2>
+          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028" }}>
+            A transformational life coach works with you at a deep level to shift your mindset, beliefs, and behaviors. Unlike traditional coaching that focuses only on goals, transformational coaching addresses the root causes that keep you from moving forward.
+          </p>
+        </div>
+      </section>
+
+      {/* ── BENEFITS OF WORKING WITH A TRANSFORMATIONAL LIFE COACH ── */}
+      <section style={{ backgroundColor: "#ffffff", padding: "4rem 0" }}>
+        <div className="max-w-3xl mx-auto px-6">
+          <h2
+            style={{
+              fontFamily: "var(--font-dm-serif), Georgia, serif",
+              fontSize: "clamp(1.5rem, 2.5vw, 2rem)",
+              lineHeight: 1.25,
+              letterSpacing: "-0.02em",
+              fontWeight: 400,
+              marginBottom: "1.25rem",
+            }}
+          >
+            Benefits of Working with a Transformational Life Coach
+          </h2>
+          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028" }}>
+            Clients who work with a transformational life coach often report greater clarity, stronger confidence, and more meaningful relationships. They also tend to achieve goals faster because they remove the internal barriers that once slowed them down.
+          </p>
+        </div>
+      </section>
+
+      {/* ── HOW TO CHOOSE THE RIGHT TRANSFORMATIONAL LIFE COACH ── */}
+      <section style={{ backgroundColor: "#F5F0E8", padding: "4rem 0" }}>
+        <div className="max-w-3xl mx-auto px-6">
+          <h2
+            style={{
+              fontFamily: "var(--font-dm-serif), Georgia, serif",
+              fontSize: "clamp(1.5rem, 2.5vw, 2rem)",
+              lineHeight: 1.25,
+              letterSpacing: "-0.02em",
+              fontWeight: 400,
+              marginBottom: "1.25rem",
+            }}
+          >
+            How to Choose the Right Transformational Life Coach
+          </h2>
+          <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028" }}>
+            Look for a coach with verified credentials, a clear methodology, and testimonials from past clients. A good fit in terms of personality and communication style is also important for lasting results.
+          </p>
         </div>
       </section>
 
