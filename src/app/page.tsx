@@ -324,7 +324,8 @@ export default function Home() {
           >
             Justin asks the questions that reveal the blind spot. Not to analyze it. Not to
             process it. To see it. The insight that arrives is yours — he does not deliver it.
-            He creates the conditions for you to stop running past it.
+            He does not give you the answer. He asks the question that makes your own answer
+            impossible to ignore.
           </p>
           <p
             style={{
@@ -580,9 +581,11 @@ export default function Home() {
                   marginBottom: "2rem",
                 }}
               >
-                The same alignment. The same clearing of counterintention. The same access to
-                full potential — applied to a sport where you cannot see the ball. This is not
-                metaphor. This is the philosophy in action.
+                He cannot see the ball. He hears a beep, tracks the sound, and swings. He hit
+                home runs and won Offense MVP at the 2025 Thunder Tournament. The same principle:
+                clear the subconscious counterintention — the inner program running against what
+                you want — and what you are actually capable of shows up. He does not just talk
+                about this. He competes with it.
               </p>
               <Link href="/about" className="btn-secondary-dark">
                 Read His Story

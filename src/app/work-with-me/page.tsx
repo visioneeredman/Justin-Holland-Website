@@ -160,10 +160,10 @@ export default function WorkWithMe() {
 
             <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
               {[
-                { before: "Hitting the same ceiling", after: "The ceiling reveals itself as a pattern — not a wall" },
-                { before: "Trying harder and getting less", after: "Aligned effort, fewer internal contradictions" },
-                { before: "Performing your life from the outside", after: "Living from who you actually are" },
-                { before: "Repeating the same pattern in new situations", after: "The pattern is seen — and cannot be un-seen" },
+                { before: "Hitting the same ceiling", after: "You can name what was in the way. You stop running into it blind." },
+                { before: "Trying harder and getting less", after: "Your effort stops fighting itself. What you build, stays built." },
+                { before: "Performing your life from the outside", after: "You stop rehearsing. You stop monitoring yourself. You just show up." },
+                { before: "Repeating the same pattern in new situations", after: "New situation, same result — ends. Because you can now see what was running it." },
               ].map((item, i) => (
                 <div
                   key={i}
@@ -297,7 +297,7 @@ export default function WorkWithMe() {
               {
                 step: "03",
                 title: "Integration",
-                desc: "How to live from the new awareness — not just understand it intellectually, but embody it. The shift is the beginning, not the end. What follows is living from it.",
+                desc: "The seeing is not the end — it is the point where the old pattern stops being invisible. You still have to navigate the life you have built. What changes is how you move through it. Justin works with you through that: not as someone telling you what to do, but as someone who has navigated the same shift himself.",
               },
             ].map((step) => (
               <div

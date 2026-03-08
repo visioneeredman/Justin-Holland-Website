@@ -84,7 +84,7 @@ export default function About() {
           >
             Justin Holland was twenty years old when a beer bottle was smashed across his face
             during a fight outside a girlfriend&apos;s apartment. He moved back home. Weeks
-            later he was legally blind. Months after that came the diagnosis: a genetic condition
+            later he was blind. Months after that came the diagnosis: a genetic condition
             the head trauma had likely triggered.
           </p>
           <p
@@ -145,20 +145,8 @@ export default function About() {
               marginBottom: "1.5rem",
             }}
           >
-            Then, in 2023, in a session inside a men&apos;s brotherhood he had invested in,
-            something happened that years of effort had not produced. He went into integration.
-            The moment arrived.
-          </p>
-          <p
-            style={{
-              fontSize: "1.125rem",
-              lineHeight: 1.8,
-              color: "#3a3028",
-              marginBottom: "1.5rem",
-            }}
-          >
-            He asked himself two questions. Simple ones. The ones most people never stop long
-            enough to sit with.
+            Then in 2023, inside a men&apos;s brotherhood, he sat with two questions he had
+            been moving past his entire adult life.
           </p>
           <p
             style={{
@@ -177,11 +165,10 @@ export default function About() {
               color: "#3a3028",
             }}
           >
-            The answer arrived. He saw it — for the first time. Going blind had forced him to face
-            what he had been running from. It changed how he saw everything. When you change how
-            you look at things, what you look at changes. Through that shift — and a natural gift
-            for introspection and genuine curiosity — the clarity came. And once it came, it could
-            not be unseen.
+            He stopped moving long enough to actually answer them. Not to think about them —
+            to answer them. Through his own honest reckoning, he saw it: the pattern he had been
+            running, what he had been creating, and exactly why. Not as an idea. Not as something
+            he understood. He saw it. And once he saw it, he could not unsee it.
           </p>
         </div>
       </section>
@@ -360,10 +347,11 @@ export default function About() {
                 margin: 0,
               }}
             >
-              Justin works in the integration between all three — grounded enough to live in the
-              full human experience, aware enough not to be unconsciously run by it. The goal is
-              not transcendence. It is presence. Being conscious, feeling the emotions, learning
-              the lessons, and creating a life aligned with who you actually are.
+              Justin is not outside this himself. He still gets angry. He still makes mistakes.
+              He still has blind spots. The work is not about rising above the human experience —
+              it is about not being unconsciously run by it. There is a specific difference between
+              reacting from a program you cannot see and making a choice you actually made. That
+              difference is what this work is about.
             </p>
           </div>
         </div>
@@ -386,16 +374,18 @@ export default function About() {
             What changes when the blind spot is cleared
           </h2>
           <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
-            When the subconscious programming stops running the show, something shifts. You stop
-            creating from past beliefs and start creating from who you actually are — your True
-            Self. Your intention aligns with your true purpose. The internal contradiction is
-            gone. What you are building becomes more natural, less forced, because you are no
-            longer working against yourself.
+            When a specific blind spot clears, specific things stop happening. The relationship
+            that has ended the same way three times in a row starts going differently. The
+            financial ceiling you keep hitting regardless of how much you earn starts moving. The
+            decision you have been circling for six months becomes obvious. These are the
+            fingerprints of a subconscious program — running your behavior beneath your awareness,
+            producing the results you kept saying you did not want.
           </p>
           <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
-            This is what reaching your full potential actually means. Not a higher level of
-            effort. Alignment. When what you consciously want and what you subconsciously believe
-            are no longer in conflict, the outcomes start matching the intention.
+            This is what reaching your full potential actually means. Not working harder. When
+            your conscious goal and your subconscious belief about whether you deserve it — whether
+            you can handle it, whether you are allowed to have it — stop fighting each other, the
+            energy you have been burning on that internal war becomes available for something else.
           </p>
           <p style={{ fontSize: "1.125rem", lineHeight: 1.8, color: "#3a3028", marginBottom: "1.25rem" }}>
             This is not a promise that life becomes painless. Challenge is part of being alive.
@@ -442,15 +432,16 @@ export default function About() {
                 He didn&apos;t theorize his way into these ideas.
               </h2>
               <p style={{ color: "#c8bfb0", lineHeight: 1.75, marginBottom: "1rem", fontSize: "1.0625rem" }}>
-                Justin is legally blind and competes in Beepball — an adaptation of baseball for
-                blind and visually impaired athletes. He has hit home runs and received Offense MVP
-                honors at the 2025 Thunder Tournament and competed at the Beepball World Series.
+                Justin is blind and competes in Beepball — an adaptation of baseball for
+                blind and visually impaired athletes. The ball beeps. He cannot see it. He tracks
+                the sound and swings. He has hit home runs and won Offense MVP at the 2025 Thunder
+                Tournament and competed at the Beepball World Series.
               </p>
               <p style={{ color: "#c8bfb0", lineHeight: 1.75, fontSize: "1.0625rem" }}>
-                The same alignment. The same clearing of counterintention. The same access to
-                full alignment — applied to a sport played without sight. Not as a metaphor for his
-                philosophy. As a direct expression of it. The work does not require physical
-                vision. It requires a different kind of noticing.
+                He does not just teach this principle. He competes with it. Clear the subconscious
+                counterintention — the inner program running against what you want — and what you
+                are actually capable of shows up. He did it in bodybuilding. He does it on a
+                baseball field without sight. It is the same work.
               </p>
             </div>
 
