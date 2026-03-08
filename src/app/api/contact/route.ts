@@ -2,7 +2,7 @@ import { Resend } from "resend";
 import { NextRequest, NextResponse } from "next/server";
 
 const TO = "justin@iamjustinholland.com";
-const FROM = "Justin Holland Site <noreply@iamjustinholland.com>";
+const FROM = "Justin Holland <noreply@site.iamjustinholland.com>";
 
 function formatFields(fields: Record<string, string>): string {
   return Object.entries(fields)
