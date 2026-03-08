@@ -399,6 +399,7 @@ export default function WorkWithMe() {
             fields={coachingFormFields}
             submitLabel="Begin Here"
             successMessage="Application received. Justin reads every one personally and will be in touch."
+            formType="coaching"
           />
         </div>
       </section>

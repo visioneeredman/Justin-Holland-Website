@@ -16,6 +16,7 @@ interface PlaceholderFormProps {
   submitLabel?: string;
   successMessage?: string;
   dark?: boolean;
+  formType?: string;
 }
 
 export default function PlaceholderForm({
@@ -23,13 +24,37 @@ export default function PlaceholderForm({
   submitLabel = "Send",
   successMessage = "Thank you. Your message has been received. Justin reads every one personally.",
   dark = false,
+  formType = "contact",
 }: PlaceholderFormProps) {
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    // Placeholder — backend will be wired in a later session
-    setSubmitted(true);
+    setLoading(true);
+    setError("");
+
+    const formData = new FormData(e.currentTarget);
+    const fields: Record<string, string> = { formType };
+    formData.forEach((value, key) => {
+      fields[key] = value as string;
+    });
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(fields),
+      });
+
+      if (!res.ok) throw new Error("Send failed");
+      setSubmitted(true);
+    } catch {
+      setError("Something went wrong. Please try again or email justin@iamjustinholland.com directly.");
+    } finally {
+      setLoading(false);
+    }
   }
 
   const inputStyle: React.CSSProperties = {
@@ -118,12 +143,17 @@ export default function PlaceholderForm({
         </div>
       ))}
 
+      {error && (
+        <p style={{ fontSize: "0.875rem", color: "#c0392b", marginTop: "0.5rem" }}>{error}</p>
+      )}
+
       <button
         type="submit"
         className="btn-primary"
-        style={{ marginTop: "0.75rem", width: "100%" }}
+        style={{ marginTop: "0.75rem", width: "100%", opacity: loading ? 0.7 : 1 }}
+        disabled={loading}
       >
-        {submitLabel}
+        {loading ? "Sending..." : submitLabel}
       </button>
 
       <p

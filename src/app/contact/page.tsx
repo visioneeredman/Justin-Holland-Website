@@ -94,6 +94,7 @@ export default function Contact() {
                 fields={contactFormFields}
                 submitLabel="Send Message"
                 successMessage="Message received. Justin reads every one personally and will be in touch soon."
+                formType="contact"
               />
             </div>
 

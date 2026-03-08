@@ -245,6 +245,7 @@ export default function Speaking() {
             fields={speakingFormFields}
             submitLabel="Send Inquiry"
             successMessage="Inquiry received. Justin reads every one personally and will follow up directly."
+            formType="speaking"
           />
         </div>
       </section>
