@@ -50,7 +50,6 @@ export default function PlaceholderForm({
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       });
-
       if (!res.ok) throw new Error("Send failed");
       setSubmitted(true);
     } catch {
@@ -174,9 +173,10 @@ export default function PlaceholderForm({
               padding: "0 0.5rem",
             }}
           >
-            SMS Consent — Optional
+            SMS Consent &mdash; Optional
           </legend>
 
+          {/* Marketing checkbox */}
           <label
             style={{
               display: "flex",
@@ -190,7 +190,7 @@ export default function PlaceholderForm({
               type="checkbox"
               name="consent_marketing"
               value="yes"
-              aria-label="Consent to marketing SMS messages"
+              aria-label="Consent to receive marketing SMS messages"
               style={{ marginTop: "0.2rem", flexShrink: 0, accentColor: "#C4813A" }}
             />
             <span
@@ -200,23 +200,14 @@ export default function PlaceholderForm({
                 color: dark ? "#9a9080" : "#6b6055",
               }}
             >
-              I agree to receive marketing and promotional SMS messages from Justin Holland at the
-              phone number provided above. Message frequency varies. Message and data rates may
-              apply. Reply STOP to opt out, HELP for help.{" "}
-              <Link
-                href="/privacy-policy"
-                style={{ color: "#C4813A", textDecoration: "underline" }}
-              >
-                Privacy Policy
-              </Link>{" "}
-              &amp;{" "}
-              <Link href="/terms" style={{ color: "#C4813A", textDecoration: "underline" }}>
-                Terms
-              </Link>
-              .
+              I consent to receive marketing text messages about special offers, updates, and
+              insights from Justin Holland at the phone number provided. Message frequency may
+              vary. Message &amp; data rates may apply. Text HELP for assistance, reply STOP to
+              opt out.
             </span>
           </label>
 
+          {/* Transactional checkbox */}
           <label
             style={{
               display: "flex",
@@ -229,7 +220,7 @@ export default function PlaceholderForm({
               type="checkbox"
               name="consent_transactional"
               value="yes"
-              aria-label="Consent to transactional SMS messages"
+              aria-label="Consent to receive transactional SMS messages"
               style={{ marginTop: "0.2rem", flexShrink: 0, accentColor: "#C4813A" }}
             />
             <span
@@ -239,22 +230,35 @@ export default function PlaceholderForm({
                 color: dark ? "#9a9080" : "#6b6055",
               }}
             >
-              I agree to receive appointment reminders, booking confirmations, and other
-              transactional SMS notifications from Justin Holland at the phone number provided
-              above. Message and data rates may apply. Reply STOP to opt out.{" "}
-              <Link
-                href="/privacy-policy"
-                style={{ color: "#C4813A", textDecoration: "underline" }}
-              >
-                Privacy Policy
-              </Link>{" "}
-              &amp;{" "}
-              <Link href="/terms" style={{ color: "#C4813A", textDecoration: "underline" }}>
-                Terms
-              </Link>
-              .
+              I consent to receive non-marketing text messages from Justin Holland about
+              appointment reminders, booking confirmations, and session notifications. Message
+              frequency may vary. Message &amp; data rates may apply. Text HELP for assistance,
+              reply STOP to opt out.
             </span>
           </label>
+
+          {/* PP + Terms links at bottom of fieldset per GHL spec */}
+          <p
+            style={{
+              fontSize: "0.75rem",
+              color: dark ? "#6b6055" : "#9a9080",
+              marginTop: "0.875rem",
+              lineHeight: 1.5,
+            }}
+          >
+            By checking either box above you agree to our{" "}
+            <Link
+              href="/privacy-policy"
+              style={{ color: "#C4813A", textDecoration: "underline" }}
+            >
+              Privacy Policy
+            </Link>{" "}
+            and{" "}
+            <Link href="/terms" style={{ color: "#C4813A", textDecoration: "underline" }}>
+              Terms of Service
+            </Link>
+            .
+          </p>
         </fieldset>
       )}
 
