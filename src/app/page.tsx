@@ -111,8 +111,8 @@ export default function Home() {
               />
               <div style={{ position: "relative", zIndex: 1, width: "100%", height: "100%" }}>
                 <Image
-                  src="/images/justin-hero.png"
-                  alt="Justin Holland with mountain landscape in background"
+                  src="/images/justin-hero.jpg"
+                  alt="Justin Holland smiling outdoors with autumn mountains in the background"
                   fill
                   style={{ objectFit: "cover", objectPosition: "top center" }}
                   priority
