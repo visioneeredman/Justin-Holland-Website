@@ -5,14 +5,31 @@ const TO = "justin@iamjustinholland.com";
 const FROM = "Justin Holland <noreply@site.iamjustinholland.com>";
 
 function formatFields(fields: Record<string, string>): string {
+  const labelMap: Record<string, string> = {
+    firstName: "First Name",
+    lastName: "Last Name",
+    email: "Email",
+    phone: "Phone",
+    subject: "Subject",
+    message: "Message",
+    consent_marketing: "Consented to Marketing SMS",
+    consent_transactional: "Consented to Transactional SMS",
+  };
   return Object.entries(fields)
     .filter(([key]) => key !== "formType")
-    .map(([key, value]) => `${key.charAt(0).toUpperCase() + key.slice(1)}:\n${value}`)
+    .map(([key, value]) => {
+      const label = labelMap[key] ?? key.charAt(0).toUpperCase() + key.slice(1);
+      return `${label}:\n${value}`;
+    })
     .join("\n\n");
 }
 
 function getSubject(formType: string, fields: Record<string, string>): string {
-  const name = fields.name || "Unknown";
+  const firstName = fields.firstName ?? "";
+  const lastName = fields.lastName ?? "";
+  const name =
+    fields.name ||
+    (firstName ? `${firstName} ${lastName}`.trim() : "Unknown");
   if (formType === "speaking") return `Speaking Inquiry — ${name}`;
   if (formType === "coaching") return `Coaching Application — ${name}`;
   const subject = fields.subject || "Message";
@@ -24,7 +41,10 @@ export async function POST(req: NextRequest) {
 
   try {
     const body = await req.json();
-    const { formType, ...fields } = body as { formType: string } & Record<string, string>;
+    const { formType, ...fields } = body as { formType: string } & Record<
+      string,
+      string
+    >;
 
     const replyTo = fields.email;
     const subject = getSubject(formType, fields);

@@ -27,7 +27,8 @@ export default function Footer() {
               Insight when it matters. No noise.
             </h2>
             <p style={{ color: "#9a9080", marginBottom: "1.5rem", fontSize: "1rem" }}>
-              Occasional dispatches on seeing clearly, living aligned, and the things most people are afraid to say plainly.
+              Occasional dispatches on seeing clearly, living aligned, and the things most people
+              are afraid to say plainly.
             </p>
             <form
               onSubmit={(e) => e.preventDefault()}
@@ -92,15 +93,43 @@ export default function Footer() {
             </div>
 
             {/* Navigation */}
-            <nav style={{ display: "flex", gap: "3rem", flexWrap: "wrap" }}>
+            <nav
+              aria-label="Footer navigation"
+              style={{ display: "flex", gap: "3rem", flexWrap: "wrap" }}
+            >
               <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
-                <Link href="/about" style={{ color: "#9a9080", textDecoration: "none", fontSize: "0.875rem" }}>About</Link>
-                <Link href="/speaking" style={{ color: "#9a9080", textDecoration: "none", fontSize: "0.875rem" }}>Speaking</Link>
-                <Link href="/work-with-me" style={{ color: "#9a9080", textDecoration: "none", fontSize: "0.875rem" }}>Work With Me</Link>
+                <Link
+                  href="/about"
+                  style={{ color: "#9a9080", textDecoration: "none", fontSize: "0.875rem" }}
+                >
+                  About
+                </Link>
+                <Link
+                  href="/speaking"
+                  style={{ color: "#9a9080", textDecoration: "none", fontSize: "0.875rem" }}
+                >
+                  Speaking
+                </Link>
+                <Link
+                  href="/work-with-me"
+                  style={{ color: "#9a9080", textDecoration: "none", fontSize: "0.875rem" }}
+                >
+                  Work With Me
+                </Link>
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
-                <Link href="/blog" style={{ color: "#9a9080", textDecoration: "none", fontSize: "0.875rem" }}>Blog</Link>
-                <Link href="/contact" style={{ color: "#9a9080", textDecoration: "none", fontSize: "0.875rem" }}>Contact</Link>
+                <Link
+                  href="/blog"
+                  style={{ color: "#9a9080", textDecoration: "none", fontSize: "0.875rem" }}
+                >
+                  Blog
+                </Link>
+                <Link
+                  href="/contact"
+                  style={{ color: "#9a9080", textDecoration: "none", fontSize: "0.875rem" }}
+                >
+                  Contact
+                </Link>
               </div>
             </nav>
 
@@ -156,7 +185,22 @@ export default function Footer() {
               &copy; {new Date().getFullYear()} Justin Holland. All rights reserved.
             </p>
             <div style={{ display: "flex", gap: "1.5rem" }}>
-              <Link href="/contact" style={{ color: "#6b6055", textDecoration: "none", fontSize: "0.8125rem" }}>
+              <Link
+                href="/privacy-policy"
+                style={{ color: "#6b6055", textDecoration: "none", fontSize: "0.8125rem" }}
+              >
+                Privacy Policy
+              </Link>
+              <Link
+                href="/terms"
+                style={{ color: "#6b6055", textDecoration: "none", fontSize: "0.8125rem" }}
+              >
+                Terms of Service
+              </Link>
+              <Link
+                href="/contact"
+                style={{ color: "#6b6055", textDecoration: "none", fontSize: "0.8125rem" }}
+              >
                 Contact
               </Link>
             </div>

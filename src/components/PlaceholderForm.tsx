@@ -1,11 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 interface FormField {
   name: string;
   label: string;
-  type: "text" | "email" | "textarea" | "select";
+  type: "text" | "email" | "textarea" | "select" | "tel";
   placeholder?: string;
   options?: string[];
   required?: boolean;
@@ -17,6 +18,7 @@ interface PlaceholderFormProps {
   successMessage?: string;
   dark?: boolean;
   formType?: string;
+  showConsentCheckboxes?: boolean;
 }
 
 export default function PlaceholderForm({
@@ -25,6 +27,7 @@ export default function PlaceholderForm({
   successMessage = "Thank you. Your message has been received. Justin reads every one personally.",
   dark = false,
   formType = "contact",
+  showConsentCheckboxes = false,
 }: PlaceholderFormProps) {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -36,22 +39,24 @@ export default function PlaceholderForm({
     setError("");
 
     const formData = new FormData(e.currentTarget);
-    const fields: Record<string, string> = { formType };
+    const data: Record<string, string> = { formType };
     formData.forEach((value, key) => {
-      fields[key] = value as string;
+      data[key] = value as string;
     });
 
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(fields),
+        body: JSON.stringify(data),
       });
 
       if (!res.ok) throw new Error("Send failed");
       setSubmitted(true);
     } catch {
-      setError("Something went wrong. Please try again or email justin@iamjustinholland.com directly.");
+      setError(
+        "Something went wrong. Please try again or email justin@iamjustinholland.com directly."
+      );
     } finally {
       setLoading(false);
     }
@@ -80,7 +85,13 @@ export default function PlaceholderForm({
           color: dark ? "#F5F0E8" : "#1A1A1A",
         }}
       >
-        <p style={{ fontFamily: "var(--font-dm-serif), Georgia, serif", fontSize: "1.25rem", marginBottom: "0.5rem" }}>
+        <p
+          style={{
+            fontFamily: "var(--font-dm-serif), Georgia, serif",
+            fontSize: "1.25rem",
+            marginBottom: "0.5rem",
+          }}
+        >
           Message received.
         </p>
         <p style={{ fontSize: "0.9375rem", opacity: 0.8 }}>{successMessage}</p>
@@ -104,7 +115,9 @@ export default function PlaceholderForm({
             }}
           >
             {field.label}
-            {field.required && <span style={{ color: "#C4813A", marginLeft: "0.25rem" }}>*</span>}
+            {field.required && (
+              <span style={{ color: "#C4813A", marginLeft: "0.25rem" }}>*</span>
+            )}
           </label>
 
           {field.type === "textarea" ? (
@@ -143,6 +156,108 @@ export default function PlaceholderForm({
         </div>
       ))}
 
+      {showConsentCheckboxes && (
+        <fieldset
+          style={{
+            border: dark ? "1px solid #2e2e2e" : "1px solid #d4ccc0",
+            padding: "1.25rem",
+            marginTop: "1.25rem",
+            marginBottom: "0.5rem",
+          }}
+        >
+          <legend
+            style={{
+              fontSize: "0.75rem",
+              letterSpacing: "0.08em",
+              textTransform: "uppercase",
+              color: dark ? "#6b6055" : "#9a9080",
+              padding: "0 0.5rem",
+            }}
+          >
+            SMS Consent — Optional
+          </legend>
+
+          <label
+            style={{
+              display: "flex",
+              alignItems: "flex-start",
+              gap: "0.75rem",
+              marginBottom: "1rem",
+              cursor: "pointer",
+            }}
+          >
+            <input
+              type="checkbox"
+              name="consent_marketing"
+              value="yes"
+              aria-label="Consent to marketing SMS messages"
+              style={{ marginTop: "0.2rem", flexShrink: 0, accentColor: "#C4813A" }}
+            />
+            <span
+              style={{
+                fontSize: "0.8125rem",
+                lineHeight: 1.6,
+                color: dark ? "#9a9080" : "#6b6055",
+              }}
+            >
+              I agree to receive marketing and promotional SMS messages from Justin Holland at the
+              phone number provided above. Message frequency varies. Message and data rates may
+              apply. Reply STOP to opt out, HELP for help.{" "}
+              <Link
+                href="/privacy-policy"
+                style={{ color: "#C4813A", textDecoration: "underline" }}
+              >
+                Privacy Policy
+              </Link>{" "}
+              &amp;{" "}
+              <Link href="/terms" style={{ color: "#C4813A", textDecoration: "underline" }}>
+                Terms
+              </Link>
+              .
+            </span>
+          </label>
+
+          <label
+            style={{
+              display: "flex",
+              alignItems: "flex-start",
+              gap: "0.75rem",
+              cursor: "pointer",
+            }}
+          >
+            <input
+              type="checkbox"
+              name="consent_transactional"
+              value="yes"
+              aria-label="Consent to transactional SMS messages"
+              style={{ marginTop: "0.2rem", flexShrink: 0, accentColor: "#C4813A" }}
+            />
+            <span
+              style={{
+                fontSize: "0.8125rem",
+                lineHeight: 1.6,
+                color: dark ? "#9a9080" : "#6b6055",
+              }}
+            >
+              I agree to receive appointment reminders, booking confirmations, and other
+              transactional SMS notifications from Justin Holland at the phone number provided
+              above. Message and data rates may apply. Reply STOP to opt out.{" "}
+              <Link
+                href="/privacy-policy"
+                style={{ color: "#C4813A", textDecoration: "underline" }}
+              >
+                Privacy Policy
+              </Link>{" "}
+              &amp;{" "}
+              <Link href="/terms" style={{ color: "#C4813A", textDecoration: "underline" }}>
+                Terms
+              </Link>
+              .
+            </span>
+          </label>
+        </fieldset>
+      )}
+
       {error && (
         <p style={{ fontSize: "0.875rem", color: "#c0392b", marginTop: "0.5rem" }}>{error}</p>
       )}
@@ -150,7 +265,7 @@ export default function PlaceholderForm({
       <button
         type="submit"
         className="btn-primary"
-        style={{ marginTop: "0.75rem", width: "100%", opacity: loading ? 0.7 : 1 }}
+        style={{ marginTop: "1rem", width: "100%", opacity: loading ? 0.7 : 1 }}
         disabled={loading}
       >
         {loading ? "Sending..." : submitLabel}

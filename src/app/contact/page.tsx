@@ -8,8 +8,33 @@ export const metadata: Metadata = {
 };
 
 const contactFormFields = [
-  { name: "name", label: "Your Name", type: "text" as const, placeholder: "Full name", required: true },
-  { name: "email", label: "Email", type: "email" as const, placeholder: "your@email.com", required: true },
+  {
+    name: "firstName",
+    label: "First Name",
+    type: "text" as const,
+    placeholder: "First name",
+    required: true,
+  },
+  {
+    name: "lastName",
+    label: "Last Name",
+    type: "text" as const,
+    placeholder: "Last name",
+    required: true,
+  },
+  {
+    name: "email",
+    label: "Email",
+    type: "email" as const,
+    placeholder: "your@email.com",
+    required: true,
+  },
+  {
+    name: "phone",
+    label: "Phone (optional)",
+    type: "tel" as const,
+    placeholder: "Phone number",
+  },
   {
     name: "subject",
     label: "Subject",
@@ -23,13 +48,19 @@ const contactFormFields = [
     ],
     required: true,
   },
-  { name: "message", label: "Message", type: "textarea" as const, placeholder: "Tell Justin what you have in mind.", required: true },
+  {
+    name: "message",
+    label: "Message",
+    type: "textarea" as const,
+    placeholder: "Tell Justin what you have in mind.",
+    required: true,
+  },
 ];
 
 export default function Contact() {
   return (
     <>
-      {/* ── HERO ── */}
+      {/* HERO */}
       <section
         style={{
           backgroundColor: "#0E0E0E",
@@ -76,7 +107,7 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* ── FORM + DETAILS ── */}
+      {/* FORM + DETAILS */}
       <section style={{ backgroundColor: "#F5F0E8", padding: "6rem 0" }}>
         <div className="max-w-5xl mx-auto px-6">
           <div
@@ -95,6 +126,7 @@ export default function Contact() {
                 submitLabel="Send Message"
                 successMessage="Message received. Justin reads every one personally and will be in touch soon."
                 formType="contact"
+                showConsentCheckboxes={true}
               />
             </div>
 
@@ -178,7 +210,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-
 
       <style>{`
         .contact-grid { grid-template-columns: 2fr 1fr !important; }
